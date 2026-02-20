@@ -1,11 +1,11 @@
 # This file is for various variables used throughout the workflow.
 # See a description of each setting in the README.md file.
-input_dir: "nanopore_run_xyz123/fastq_pass"
+input_dir: ".test/nanopore_run_xyz123/fastq_pass"
 output_dir: "output"
 tmp_dir: "tmp"
 log_dir: "logs"
 classify_sintax: True
-db_sintax: "db_sintax.fa"
+db_sintax: ".test/db_sintax.fa"
 # options passed on to the "usearch -sintax" command directly, except input, output, database, and threads
 classify_sintax_args: "-strand both -sintax_cutoff 0.8"
 classify_savont: True
