@@ -1,22 +1,31 @@
-# Snakemake workflow: `<snakemake_template>`
+# Snakemake workflow: `snakemake_savont`
 
 [![Snakemake](https://img.shields.io/badge/snakemake-≥7.18.2-brightgreen.svg)](https://snakemake.github.io)
-[![GitHub actions status](https://github.com/<owner>/<repo>/workflows/Tests/badge.svg?branch=main)](https://github.com/<owner>/<repo>/actions?query=branch%3Amain+workflow%3ATests)
+[![GitHub actions status](https://github.com/kasperskytte/snakemake_savont/workflows/Tests/badge.svg?branch=main)](https://github.com/kasperskytte/snakemake_savont/actions?query=branch%3Amain+workflow%3ATests)
 
-This is a (working) template repository designed for scientific projects where data is processed using [Snakemake](https://snakemake.readthedocs.io/).
+Simple snakemake workflow for processing amplicon data sequenced on ONT or PacBio platforms, using [savont](https://github.com/bluenote-1577/savont) to generate ASVs and [usearch](https://drive5.com/usearch) for generating an abundance table and taxonomic classification.
 
-## Requirements
-All required tools are automatically installed by Snakemake using conda environments or singularity/apptainer containers, however Snakemake itself needs to be installed first. Load a software module with Snakemake, use a native install, or use the `environment.yml` file to create a conda environment for this particular project using fx `conda env create -n <snakemake_template> -f environment.yml`.
+## Brief overview and description of steps (rules)
+TODO
 
 ## Usage
-Adjust the `config.yaml` files under both `config/` and `profiles/` accordingly, then simply run `snakemake --profile profiles/<subfolder>` or submit a SLURM job using the `slurm_submit.sbatch` example script.
-The usage of this workflow is also described in the [Snakemake Workflow Catalog](https://snakemake.github.io/snakemake-workflow-catalog/?usage=<owner>%2F<repo>).
+First install snakemake and the required software into a conda environment (preferably using the [environment.yml](environment.yml) file) or use the container as described below. Then deploy the workflow using [snakedeploy](https://snakemake.github.io/snakemake-workflow-catalog/docs/workflows/KasperSkytte/snakemake_savont.html), adjust the [config file](config/README.md), then run, fx:
+```
+conda activate snakemake_savont
+snakedeploy deploy-workflow https://github.com/KasperSkytte/snakemake_savont . --tag v1.2.1
+snakemake --cores 96
+```
 
-# TODO
-* Replace `<owner>` and `<repo>` with the correct values in this `README.md` as well as in files under `.github/workflows/`.
-* Replace `<snakemake_template>` with the workflow/project name (can be the same as `<repo>`) here as well as in the `environment.yml` and `slurm_submit.sbatch` files.
-* Add more requirements to the `environment.yml` file if needed, however tools for each Snakemake rule should **NOT** go here, they should be configured separately for each rule instead in `yaml` files under `envs/`.
-* Fill in fields in this `README.md` file, in particular provide a proper description of what the workflow does with any relevant details and configuration.
-* The workflow will occur in the public Snakemake workflow catalog once the repository has been made public and the provided GitHub actions finish correctly. Then the link under "Usage" will point to the usage instructions if `<owner>` and `<repo>` were correctly set. If you don't want to publish the workflow just delete the `.github/workflows/` and `.template/` folders and `snakemake-workflow-catalog.yml`.
-* Consider the license - [Choose a license](https://choosealicense.com/)
-* DELETE this **TODO** section when finished with all of the above, and then start developing your workflow!
+Depending on the size of the data, you can use an executor if you are running on a HPC cluster to optimize utilization by submitting individual tasks as separate jobs. See the `slurm_submit.sbatch` for an example when running on a SLURM cluster.
+
+## Requirements
+Install the required software by using either the provided `Dockerfile` or `environment.yml` file to build a Docker container or conda environment with all the required tools, see below.
+
+### Docker
+The pre-built Docker container available from [`ghcr.io/kasperskytte/snakemake_savont:main`](https://github.com/KasperSkytte/snakemake_savont/pkgs/container/snakemake_savont) is built from the `Dockerfile` and includes all required software.
+
+### Conda
+Requirements are listed in `environment.yml`. To create as a conda environment simply run:
+```
+conda env create --file environment.yml -n snakemake_savont
+```
