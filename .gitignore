@@ -1,5 +1,7 @@
 results/**
 resources/**
 logs/**
-.snakemake
 .snakemake/**
+data/**
+databases/**
+output/**
