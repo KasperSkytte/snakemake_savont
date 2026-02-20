@@ -81,7 +81,7 @@ rule cutadapt:
         """
 
 
-rule savont:
+rule savont_asv:
     input:
         os.path.join(
             config["tmp_dir"],
