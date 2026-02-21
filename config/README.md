@@ -17,7 +17,7 @@ The configuration file `config.yaml` is used to set various options used through
 | `classify_savont_args` | `""` | Options passed on to the `savont classify` command directly, except input, output, database, and threads. |
 | `max_threads` | `32` | Max number of threads to use for any individual rule. Ensure this is a factor of the `--cores` value specified when running the workflow to avoid waste. |
 | `sample_sep` | `"_"` | Separator used for the `usearch -otutab` and `fastx_relabel` commands. |
-| `cutadapt_args` | `"-g AGRGTTYGATYMTGGCTCAG...GTTTGGCACCTCGATGTCG --revcomp --discard-untrimmed"` | Options passed on to `cutadapt` directly. Input, output, and threads are added automatically. This is required for trimming and orienting reads correctly according to primers. |
+| `cutadapt_args` | `"-g AGRGTTYGATYMTGGCTCAG...GTTTGGCACCTCGATGTCG --revcomp --discard-untrimmed"` | Options passed on to `cutadapt` directly. Input, output, and threads are added automatically. This is required for trimming and orienting reads correctly according to primers. To skip the `cutadapt` step simply set this to `""`. |
 | `rarefy_abund_table` | `False` | Whether to also produce a rarefied abundance table or not. |
 | `rarefy_sample_size` | `2000` | Rarefy abundance table to an equal sample size. Both a rarefied and an unrarefied abundance table will be generated. |
 

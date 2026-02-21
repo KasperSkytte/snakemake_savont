@@ -14,6 +14,7 @@ classify_savont_db_download_dir: "./databases"
 classify_savont_args: ""
 max_threads: 32
 sample_sep: "_"
+# skip the cutadapt step if necessary by setting this to ""
 cutadapt_args: "-g AGRGTTYGATYMTGGCTCAG...GTTTGGCACCTCGATGTCG --revcomp --discard-untrimmed"
 rarefy_abund_table: False
 rarefy_sample_size: 2000

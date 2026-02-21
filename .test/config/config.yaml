@@ -18,9 +18,8 @@ classify_savont_args: ""
 max_threads: 32
 sample_sep: "_"
 # options passed on to the "cutadapt" command directly, except input, output, and threads
-# TODO: HOW TO SKIP??
-cutadapt_args: "-g AGRGTTYGATYMTGGCTCAG...GTTTGGCACCTCGATGTCG --revcomp --discard-untrimmed"
+cutadapt_args: ""
 # options passed on to the "savont asv" command directly, except input, output, and threads
-savont_asv_args: "--minimum-base-quality 25 --quality-value-cutoff 98 --min-read-length 400 --max-read-length 700"
+savont_asv_args: "--minimum-base-quality 10 --quality-value-cutoff 95 --min-read-length 200 --max-read-length 700"
 rarefy_abund_table: False
 rarefy_sample_size: 2000

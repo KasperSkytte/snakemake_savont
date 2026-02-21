@@ -11,7 +11,7 @@ Simple snakemake workflow for processing amplicon data sequenced on ONT or PacBi
 | `01-sample_prep.smk` | `sample_prep` | For each sample, decompress, concatenate all files into one, count reads before filtering, relabel reads using `usearch -fastx_relabel`. |
 | | `concatenate_total_reads_files` | Concatenates all files with number of reads before and after filtering in each sample into a single file. |
 | `02-savont.smk` | `concat_all` | Concatenates all filtered reads from all samples into a single file to be able to generate ASVs. |
-| | `cutadapt` | Trim primers and orient reads using `cutadapt`. |
+| | `cutadapt` | (optional) Trim primers and orient reads using `cutadapt`. |
 | | `savont` | Generate ASVs using `savont asv`. |
 | `03-classify.smk` | `sintax_classify` | (optional) Predict taxonomy of the ASVs using `usearch -sintax`. |
 | | `savont_classify` | (optional) Predict taxonomy of the ASVs using `savont classify`. Database files will be downloaded automatically. |
