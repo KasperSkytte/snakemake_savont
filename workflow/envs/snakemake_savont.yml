@@ -5,5 +5,6 @@ channels:
 dependencies:
   - gzip=1.14
   - cutadapt=5.2
+  - xopen=2.0.2
   - usearch=11.0.667
   - savont=0.3.2
