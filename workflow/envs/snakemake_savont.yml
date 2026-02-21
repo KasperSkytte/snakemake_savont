@@ -3,7 +3,7 @@ channels:
   - bioconda
   - conda-forge
 dependencies:
-  - gzip=1.13
-  - cutadapt=5.1
+  - gzip=1.14
+  - cutadapt=5.2
   - usearch=11.0.667
   - savont=0.3.2
