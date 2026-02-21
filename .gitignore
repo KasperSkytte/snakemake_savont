@@ -9,7 +9,6 @@ tmp/**
 .test/output/**
 .test/.snakemake/**
 .test/tmp/**
-.test/databases/**
 .test/logs/**
 savont_classify_latest.log
 savont_latest.log

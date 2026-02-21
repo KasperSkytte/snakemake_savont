@@ -1,0 +1,468 @@
+primaryAccession	start	stop	path	organism_name	taxid
+AB000278	1	1410	Bacteria;Pseudomonadota;Gammaproteobacteria;Enterobacterales;Vibrionaceae;Photobacterium;	Photobacterium iliopiscarium	62684
+AB000390	1	1428	Bacteria;Pseudomonadota;Gammaproteobacteria;Enterobacterales;Vibrionaceae;Vibrio;	Vibrio halioticoli	62688
+AB000391	1	1471	Bacteria;Pseudomonadota;Gammaproteobacteria;Enterobacterales;Vibrionaceae;Vibrio;	Vibrio halioticoli	62688
+AB000392	1	1478	Bacteria;Pseudomonadota;Gammaproteobacteria;Enterobacterales;Vibrionaceae;Vibrio;	Vibrio halioticoli	62688
+AB000393	1	1510	Bacteria;Pseudomonadota;Gammaproteobacteria;Enterobacterales;Vibrionaceae;Vibrio;	Vibrio halioticoli	62688
+AB000479	1	1326	Bacteria;Pseudomonadota;Alphaproteobacteria;Rhodospirillales;Rhodospirillaceae;Insolitispirillum;	Insolitispirillum peregrinum	61859
+AB000480	1	1326	Bacteria;Pseudomonadota;Alphaproteobacteria;Rhodospirillales;Rhodospirillaceae;Insolitispirillum;	Insolitispirillum peregrinum	61859
+AB000563	1	1473	Archaea;Halobacteriota;Halobacteria;Halobacterales;Halomicrobiaceae;Haloarcula;	Haloarcula aidinensis	57488
+AB000700	1	1501	Bacteria;Pseudomonadota;Gammaproteobacteria;Burkholderiales;Nitrosomonadaceae;Nitrosomonas;	Nitrosomonas sp. JL21	62270
+AB001439	1	1538	Bacteria;Pseudomonadota;Gammaproteobacteria;Pseudomonadales;Pseudomonadaceae;Pseudomonas;	Pseudomonas syringae pv. actinidiae	63054
+AB001440	1	1538	Bacteria;Pseudomonadota;Gammaproteobacteria;Pseudomonadales;Pseudomonadaceae;Pseudomonas;	Pseudomonas coronafaciens pv. atropurpurea	63054
+AB001442	1	1538	Bacteria;Pseudomonadota;Gammaproteobacteria;Pseudomonadales;Pseudomonadaceae;Pseudomonas;	Pseudomonas amygdali pv. eriobotryae	63054
+AB001443	1	1538	Bacteria;Pseudomonadota;Gammaproteobacteria;Pseudomonadales;Pseudomonadaceae;Pseudomonas;	Pseudomonas savastanoi pv. glycinea	63054
+AB001444	1	1538	Bacteria;Pseudomonadota;Gammaproteobacteria;Pseudomonadales;Pseudomonadaceae;Pseudomonas;	Pseudomonas syringae pv. maculicola	63054
+AB001445	1	1538	Bacteria;Pseudomonadota;Gammaproteobacteria;Pseudomonadales;Pseudomonadaceae;Pseudomonas;	Pseudomonas amygdali pv. morsprunorum	63054
+AB001446	1	1538	Bacteria;Pseudomonadota;Gammaproteobacteria;Pseudomonadales;Pseudomonadaceae;Pseudomonas;	Pseudomonas amygdali pv. mori	63054
+AB001447	1	1538	Bacteria;Pseudomonadota;Gammaproteobacteria;Pseudomonadales;Pseudomonadaceae;Pseudomonas;	Pseudomonas amygdali pv. myricae	63054
+AB001448	1	1538	Bacteria;Pseudomonadota;Gammaproteobacteria;Pseudomonadales;Pseudomonadaceae;Pseudomonas;	Pseudomonas savastanoi pv. phaseolicola	63054
+AB001449	1	1538	Bacteria;Pseudomonadota;Gammaproteobacteria;Pseudomonadales;Pseudomonadaceae;Pseudomonas;	Pseudomonas syringae pv. tagetis	63054
+AB001518	1	1447	Bacteria;Bacteroidota;Bacteroidia;Cytophagales;Amoebophilaceae;Candidatus Cardinium;	Ixodes scapularis endosymbiont	44060
+AB001521	1	1560	Bacteria;Pseudomonadota;Gammaproteobacteria;Coxiellales;Coxiellaceae;Coxiella;	Ornithodoros moubata symbiont A	62420
+AB001724	1	1449	Bacteria;Cyanobacteriota;Cyanobacteriia;Synechococcales;Cyanobiaceae;Cyanobium PCC-6307;	Microcystis elabens	60616
+AB001778	1	1507	Bacteria;Chlamydiota;Chlamydiia;Chlamydiales;Chlamydiaceae;Chlamydia;	Chlamydia psittaci	59936
+AB001783	1	1507	Bacteria;Chlamydiota;Chlamydiia;Chlamydiales;Chlamydiaceae;Chlamydia;	Chlamydia abortus	59936
+AB001784	1	1507	Bacteria;Chlamydiota;Chlamydiia;Chlamydiales;Chlamydiaceae;Chlamydia;	Chlamydia psittaci	59936
+AB002479	1	1450	Bacteria;Bacillota;Bacilli;Lactobacillales;Streptococcaceae;Streptococcus;	Streptococcus agalactiae	58941
+AB002480	1	1312	Bacteria;Bacillota;Bacilli;Lactobacillales;Streptococcaceae;Streptococcus;	Streptococcus agalactiae	58941
+AB002481	1	1500	Bacteria;Bacillota;Bacilli;Lactobacillales;Streptococcaceae;Streptococcus;	Streptococcus equinus	58941
+AB002482	1	1457	Bacteria;Bacillota;Bacilli;Lactobacillales;Streptococcaceae;Streptococcus;	Streptococcus equinus	58941
+AB002483	1	1499	Bacteria;Bacillota;Bacilli;Lactobacillales;Streptococcaceae;Streptococcus;	Streptococcus canis	58941
+AB002484	1	1429	Bacteria;Bacillota;Bacilli;Lactobacillales;Streptococcaceae;Streptococcus;	Streptococcus dysgalactiae	58941
+AB002485	1	1506	Bacteria;Bacillota;Bacilli;Lactobacillales;Streptococcaceae;Streptococcus;	Streptococcus dysgalactiae	58941
+AB002514	1	1258	Bacteria;Bacillota;Bacilli;Lactobacillales;Streptococcaceae;Streptococcus;	Streptococcus equinus	58941
+AB002515	1	1332	Bacteria;Bacillota;Bacilli;Lactobacillales;Streptococcaceae;Streptococcus;	Streptococcus equi	58941
+AB002516	1	1450	Bacteria;Bacillota;Bacilli;Lactobacillales;Streptococcaceae;Streptococcus;	Streptococcus equi	58941
+AB002517	1	1500	Bacteria;Bacillota;Bacilli;Lactobacillales;Streptococcaceae;Streptococcus;	Streptococcus sp. 'group G'	58941
+AB002518	1	1416	Bacteria;Bacillota;Bacilli;Lactobacillales;Streptococcaceae;Streptococcus;	Streptococcus hyointestinalis	58941
+AB002519	1	1491	Bacteria;Bacillota;Bacilli;Lactobacillales;Streptococcaceae;Streptococcus;	Streptococcus alactolyticus	58941
+AB002520	1	1377	Bacteria;Bacillota;Bacilli;Lactobacillales;Streptococcaceae;Streptococcus;	Streptococcus mitis	58941
+AB002521	1	1393	Bacteria;Bacillota;Bacilli;Lactobacillales;Streptococcaceae;Streptococcus;	Streptococcus pyogenes	58941
+AB002522	1	1416	Bacteria;Bacillota;Bacilli;Lactobacillales;Streptococcaceae;Streptococcus;	Streptococcus pneumoniae	58941
+AB002523	1	1496	Bacteria;Bacillota;Bacilli;Lactobacillales;Streptococcaceae;Streptococcus;	Streptococcus porcinus	58941
+AB002524	1	1358	Bacteria;Bacillota;Bacilli;Lactobacillales;Streptococcaceae;Streptococcus;	Streptococcus sanguinis	58941
+AB002525	1	1457	Bacteria;Bacillota;Bacilli;Lactobacillales;Streptococcaceae;Streptococcus;	Streptococcus suis	58941
+AB002526	1	1442	Bacteria;Bacillota;Bacilli;Lactobacillales;Streptococcaceae;Streptococcus;	Streptococcus uberis	58941
+AB002527	1	1493	Bacteria;Bacillota;Bacilli;Lactobacillales;Streptococcaceae;Streptococcus;	Streptococcus uberis	58941
+AB002630	1	1514	Bacteria;Pseudomonadota;Gammaproteobacteria;Enterobacterales;Colwelliaceae;Colwellia;	Colwellia maris	62493
+AB002636	1	1436	Bacteria;Actinomycetota;Actinobacteria;Micrococcales;Micrococcaceae;Arthrobacter;	Actinomycetales bacterium HTA218	58233
+AB002637	1	1385	Bacteria;Actinomycetota;Actinobacteria;Micrococcales;Microbacteriaceae;Microbacterium;	Actinomycetales bacterium HTA064	58210
+AB002644	1	1485	Bacteria;Bacillota;Bacilli;Bacillales;Bacillaceae;Bacillus;	low G+C Gram-positive bacterium HTA454	58662
+AB002645	1	1442	Bacteria;Bacillota;Bacilli;Bacillales;Bacillaceae;Geobacillus;	low G+C Gram-positive bacterium HTA426	58675
+AB002646	1	1429	Bacteria;Bacillota;Bacilli;Bacillales;Bacillaceae;Geobacillus;	low G+C Gram-positive bacterium HTA462	58675
+AB002647	1	1472	Bacteria;Bacillota;Bacilli;Bacillales;Bacillaceae;Geobacillus;	low G+C Gram-positive bacterium HTA1418	58675
+AB002648	1	1383	Bacteria;Bacillota;Bacilli;Thermoactinomycetales;Thermoactinomycetaceae;Thermoflavimicrobium;	low G+C Gram-positive bacterium HTA1422	59031
+AB002651	1	1475	Bacteria;Bacillota;Bacilli;Thermoactinomycetales;Thermoactinomycetaceae;Polycladomyces;	low G+C Gram-positive bacterium HTA1416	59024
+AB002652	1	1437	Bacteria;Bacillota;Bacilli;Thermoactinomycetales;Thermoactinomycetaceae;Polycladomyces;	low G+C Gram-positive bacterium HTA1415	59024
+AB002653	1	1372	Bacteria;Pseudomonadota;Alphaproteobacteria;Sphingomonadales;Sphingomonadaceae;Blastomonas;	alpha proteobacterium HTA473	61938
+AB002661	1	1440	Bacteria;Bacillota;Bacilli;Bacillales;Bacillaceae;Halalkalibacterium;	Bacillus sp. (in: Bacteria)	58680
+AB003166	1	1439	Bacteria;Cyanobacteriota;Cyanobacteriia;Cyanobacteriales;Paraspirulinaceae;Spirulina PCC-9445;	Spirulina subsalsa IAM M-223	60476
+AB003167	1	1439	Bacteria;Cyanobacteriota;Cyanobacteriia;Cyanobacteriales;Phormidiaceae;Phormidium IAM M-71;	Phormidium ambiguum IAM M-71	60484
+AB003168	1	1438	Bacteria;Cyanobacteriota;Cyanobacteriia;Phormidesmiales;Nodosilineaceae;Nodosilinea PCC-7104;	Jaaginema neglectum IAM M-82	60592
+AB003169	1	1437	Bacteria;Cyanobacteriota;Cyanobacteriia;Leptolyngbyales;Leptolyngbyaceae;Leptolyngbya PCC-6306;	Phormidium sp. IAM M-99	60548
+AB003191	1	1518	Bacteria;Pseudomonadota;Gammaproteobacteria;Enterobacterales;Vibrionaceae;Photobacterium;	Photobacterium profundum	62684
+AB003379	1	1455	Bacteria;Bacillota;Negativicutes;Veillonellales-Selenomonadales;Selenomonadaceae;Selenomonas;	Selenomonas ruminantium	59555
+AB003392	1	1433	Bacteria;Bacillota;Clostridia;Lachnospirales;Lachnospiraceae;Pseudobutyrivibrio;	Butyrivibrio sp.	59176
+AB003623	1	1452	Bacteria;Pseudomonadota;Gammaproteobacteria;Burkholderiales;Comamonadaceae;Roseateles;	Roseateles depolymerans	62197
+AB003624	1	1452	Bacteria;Pseudomonadota;Gammaproteobacteria;Burkholderiales;Comamonadaceae;Roseateles;	Roseateles depolymerans	62197
+AB003625	1	1452	Bacteria;Pseudomonadota;Gammaproteobacteria;Burkholderiales;Comamonadaceae;Roseateles;	Roseateles depolymerans	62197
+AC121240	27170	28879	Eukaryota;Archaeplastida;Chloroplastida;Charophyta;Phragmoplastophyta;Streptophyta;Embryophyta;Tracheophyta;Spermatophyta;Pinophyta;	Medicago truncatula (barrel medic)	12385
+AC152108	6054	7843	Eukaryota;Amorphea;Obazoa;Opisthokonta;Nucletmycea;Fungi;Dikarya;Ascomycota;Saccharomycotina;Saccharomycetes;Saccharomycetales;Debaryomycetaceae;Scheffersomyces;	Scheffersomyces stipitis	48805
+AC152122	12011	13800	Eukaryota;Amorphea;Obazoa;Opisthokonta;Nucletmycea;Fungi;Dikarya;Ascomycota;Saccharomycotina;Saccharomycetes;Saccharomycetales;Debaryomycetaceae;Scheffersomyces;	Scheffersomyces stipitis	48805
+AC158205	524	2337	Eukaryota;Archaeplastida;Chloroplastida;Charophyta;Phragmoplastophyta;Streptophyta;Embryophyta;Bryophyta;Funariales;Physcomitrella;	Physcomitrella patens	4217
+AC158206	7522	9332	Eukaryota;Archaeplastida;Chloroplastida;Charophyta;Phragmoplastophyta;Streptophyta;Embryophyta;Bryophyta;Funariales;Physcomitrella;	Physcomitrella patens	4217
+AC174362	52078	53549	Bacteria;Cyanobacteriota;Cyanobacteriia;Chloroplast;Incertae Sedis;Incertae Sedis;	Medicago truncatula (barrel medic)	60300
+AC182675	44170	45959	Eukaryota;Archaeplastida;Chloroplastida;Charophyta;Phragmoplastophyta;Streptophyta;Embryophyta;Tracheophyta;Spermatophyta;Magnoliophyta;Malpighiales;Populus;	Populus trichocarpa (black cottonwood)	5221
+AF524863	1	1344	Bacteria;Pseudomonadota;Alphaproteobacteria;Rhodospirillales;Magnetospirillaceae;Telmatospirillum;	Telmatospirillum siberiense	61852
+AF524933	1	1566	Bacteria;Thermodesulfobacteriota;Desulfovibrionia;Desulfovibrionales;Desulfonauticaceae;Desulfonauticus;	Desulfonauticus submarinus	63387
+AF525306	1	1362	Bacteria;Pseudomonadota;Gammaproteobacteria;Chromatiales;Chromatiaceae;Thiorhodococcus;	Thiorhodococcus drewsii	62405
+AJ440719	1	1458	Bacteria;Cyanobacteriota;Cyanobacteriia;Chloroplast;Incertae Sedis;Incertae Sedis;	putative agent of rhinosporidiosis	60300
+AY835431	145437	146906	Bacteria;Cyanobacteriota;Cyanobacteriia;Chloroplast;Incertae Sedis;Incertae Sedis;	Tupiella akineta	60300
+AY835431	189876	191345	Bacteria;Cyanobacteriota;Cyanobacteriia;Chloroplast;Incertae Sedis;Incertae Sedis;	Tupiella akineta	60300
+AY846375	1	2552	Eukaryota;Archaeplastida;Chloroplastida;Chlorophyta;Chlorophyceae;Sphaeropleales;Monoraphidium;	Monoraphidium contortum	12591
+AY846377	1	1735	Eukaryota;Archaeplastida;Chloroplastida;Chlorophyta;Chlorophyceae;Sphaeropleales;Monoraphidium;	Monoraphidium convolutum	12591
+AY846379	1	1791	Eukaryota;Archaeplastida;Chloroplastida;Chlorophyta;Chlorophyceae;Sphaeropleales;Monoraphidium;	Monoraphidium sp. Itas 9/21 14-6w	12591
+AY846380	1	2583	Eukaryota;Archaeplastida;Chloroplastida;Chlorophyta;Chlorophyceae;Sphaeropleales;Monoraphidium;	Monoraphidium minutum	12591
+AY846382	1	1778	Eukaryota;Archaeplastida;Chloroplastida;Chlorophyta;Chlorophyceae;Sphaeropleales;Monoraphidium;	Monoraphidium contortum	12591
+AY846384	1	2409	Eukaryota;Archaeplastida;Chloroplastida;Chlorophyta;Chlorophyceae;Sphaeropleales;Monoraphidium;	Monoraphidium saxatile	12591
+AY851300	1	1802	Eukaryota;Haptophyta;Prymnesiophyceae;Phaeocystis;	Phaeocystis globosa	6392
+AY855839	1	1390	Bacteria;Pseudomonadota;Alphaproteobacteria;Rickettsiales;Mitochondria;Incertae Sedis;	Maytenus hookeri	61902
+AY870336	1	1634	Eukaryota;SAR;Stramenopiles;Labyrinthulomycetes;Thraustochytriaceae;Sicyoidochytrium;	Thraustochytriidae sp. Fng1	9673
+AY877382	1	1795	Eukaryota;Archaeplastida;Chloroplastida;Charophyta;Phragmoplastophyta;Streptophyta;Embryophyta;Anthocerotophyta;Dendrocerotales;Megaceros;	Megaceros flagellaris	11610
+AY881968	1	1777	Eukaryota;SAR;Stramenopiles;Ochrophyta;Diatomea;Bacillariophytina;Bacillariophyceae;Nitzschia;	Nitzschia longissima	9823
+AY883005	1	1744	Eukaryota;SAR;Alveolata;Dinoflagellata;Dinophyceae;Peridiniphycidae;Gonyaulacales;Alexandrium;	Alexandrium monilatum	9278
+AY909583	1	2275	Eukaryota;Archaeplastida;Rhodophyceae;Bangiales;Porphyra-Pyropia;	Porphyra sp. strain TCH243	49902
+AY909584	1	2313	Eukaryota;Archaeplastida;Rhodophyceae;Bangiales;Porphyra-Pyropia;	Porphyra sp. strain STI377	49902
+AY909586	1	1754	Eukaryota;Archaeplastida;Rhodophyceae;Bangiales;Porphyra-Pyropia;	Porphyra sp. strain WRO575	49902
+AY909587	1	1848	Eukaryota;Archaeplastida;Rhodophyceae;Bangiales;Porphyra-Pyropia;	Pyropia sp. SMR495	49902
+AY909588	1	2298	Eukaryota;Archaeplastida;Rhodophyceae;Bangiales;Porphyra-Clymene;	Porphyra sp. strain SIR242	49901
+AY909590	1	2352	Eukaryota;Archaeplastida;Rhodophyceae;Bangiales;Porphyra-Pyropia;	Pyropia sp. RIB167	49902
+AY909593	1	2290	Eukaryota;Archaeplastida;Rhodophyceae;Bangiales;Porphyra-Clymene;	Porphyra sp. strain OSK887	49901
+AY909596	1	2389	Eukaryota;Archaeplastida;Rhodophyceae;Bangiales;Porphyra-Pyropia;	Pyropia koreana	49902
+AY909597	1	2282	Eukaryota;Archaeplastida;Rhodophyceae;Bangiales;Porphyra-Clymene;	Porphyra sp. strain GDM143	49901
+AY909600	1	1745	Eukaryota;Archaeplastida;Rhodophyceae;Bangiales;Porphyra-Pyropia;	Bangia sp. strain BOH1020	49902
+AY913952	1	2301	Eukaryota;Archaeplastida;Rhodophyceae;Bangiales;Porphyra-Pyropia;	Porphyra sp. strain CHL846	49902
+AY929341	1	1778	Eukaryota;Archaeplastida;Chloroplastida;Charophyta;Phragmoplastophyta;Streptophyta;Embryophyta;Tracheophyta;Spermatophyta;Magnoliophyta;Malpighiales;Bhesa;	Bhesa robusta	5068
+AY929342	1	1781	Eukaryota;Archaeplastida;Chloroplastida;Charophyta;Phragmoplastophyta;Streptophyta;Embryophyta;Tracheophyta;Spermatophyta;Magnoliophyta;Celastrales;Canotia;	Canotia holacantha	4530
+AY929343	1	1779	Eukaryota;Archaeplastida;Chloroplastida;Charophyta;Phragmoplastophyta;Streptophyta;Embryophyta;Tracheophyta;Spermatophyta;Magnoliophyta;Celastrales;Dicarpellum;	Dicarpellum pancheri	4531
+AY929345	1	1785	Eukaryota;Archaeplastida;Chloroplastida;Charophyta;Phragmoplastophyta;Streptophyta;Embryophyta;Tracheophyta;Spermatophyta;Magnoliophyta;Oxalidales;Hua;	Hua gabonii	12300
+AY929346	1	1701	Eukaryota;Archaeplastida;Chloroplastida;Charophyta;Phragmoplastophyta;Streptophyta;Embryophyta;Tracheophyta;Spermatophyta;Magnoliophyta;Celastrales;Lepidobotrys;	Lepidobotrys staudtii	4533
+AY929347	1	1785	Eukaryota;Archaeplastida;Chloroplastida;Charophyta;Phragmoplastophyta;Streptophyta;Embryophyta;Tracheophyta;Spermatophyta;Magnoliophyta;Celastrales;Lepuropetalon;	Lepuropetalon spathulatum	4534
+AY929348	1	1778	Eukaryota;Archaeplastida;Chloroplastida;Charophyta;Phragmoplastophyta;Streptophyta;Embryophyta;Tracheophyta;Spermatophyta;Magnoliophyta;Celastrales;Mortonia;	Mortonia greggii	4536
+AY929353	1	1788	Eukaryota;Archaeplastida;Chloroplastida;Charophyta;Phragmoplastophyta;Streptophyta;Embryophyta;Tracheophyta;Spermatophyta;Magnoliophyta;Celastrales;Parnassia;	Parnassia palustris (bog stars)	4537
+AY929362	1	1781	Eukaryota;Archaeplastida;Chloroplastida;Charophyta;Phragmoplastophyta;Streptophyta;Embryophyta;Tracheophyta;Spermatophyta;Magnoliophyta;Celastrales;Stackhousia;	Stackhousia monogyna	4542
+AY929364	1	1780	Eukaryota;Archaeplastida;Chloroplastida;Charophyta;Phragmoplastophyta;Streptophyta;Embryophyta;Tracheophyta;Spermatophyta;Magnoliophyta;Celastrales;Zinowiewia;	Zinowiewia concinna	4544
+AY929368	1	1768	Eukaryota;Archaeplastida;Chloroplastida;Charophyta;Phragmoplastophyta;Streptophyta;Embryophyta;Tracheophyta;Spermatophyta;Magnoliophyta;Oxalidales;Connarus;	Connarus championii	12295
+AY929371	1	1781	Eukaryota;Archaeplastida;Chloroplastida;Charophyta;Phragmoplastophyta;Streptophyta;Embryophyta;Tracheophyta;Spermatophyta;Magnoliophyta;Cucurbitales;Lagenaria;	Lagenaria breviflora	4577
+AY929372	1	1770	Eukaryota;Archaeplastida;Chloroplastida;Charophyta;Phragmoplastophyta;Streptophyta;Embryophyta;Tracheophyta;Spermatophyta;Magnoliophyta;Zygophyllales;Larrea;	Larrea tridentata (creosote bush)	12384
+AY929373	1	1770	Eukaryota;Archaeplastida;Chloroplastida;Charophyta;Phragmoplastophyta;Streptophyta;Embryophyta;Tracheophyta;Spermatophyta;Magnoliophyta;Malpighiales;Rinorea;	Rinorea pubiflora	5229
+AY929374	1	1781	Eukaryota;Archaeplastida;Chloroplastida;Charophyta;Phragmoplastophyta;Streptophyta;Embryophyta;Tracheophyta;Spermatophyta;Magnoliophyta;Rosales;Sarcomphalus;	Sarcomphalus obtusifolius	50868
+AY952383	1	1791	Eukaryota;Archaeplastida;Chloroplastida;Charophyta;Phragmoplastophyta;Streptophyta;Embryophyta;Tracheophyta;Spermatophyta;Magnoliophyta;Liliopsida;Liliales;Veratrum;	Veratrum maackii	12155
+AY952384	1	1718	Eukaryota;Archaeplastida;Chloroplastida;Charophyta;Phragmoplastophyta;Streptophyta;Embryophyta;Tracheophyta;Spermatophyta;Magnoliophyta;Liliopsida;Incertae Sedis;Vallisneria;	Vallisneria natans	27173
+AY952385	1	1669	Eukaryota;Archaeplastida;Chloroplastida;Charophyta;Phragmoplastophyta;Streptophyta;Embryophyta;Tracheophyta;Spermatophyta;Magnoliophyta;Liliopsida;Poales;Typha;	Typha angustifolia	12204
+AY952386	1	1675	Eukaryota;Archaeplastida;Chloroplastida;Charophyta;Phragmoplastophyta;Streptophyta;Embryophyta;Tracheophyta;Spermatophyta;Magnoliophyta;Liliopsida;Alismatales;Thalassia;	Thalassia hemprichii	11931
+AY952390	1	1725	Eukaryota;Archaeplastida;Chloroplastida;Charophyta;Phragmoplastophyta;Streptophyta;Embryophyta;Tracheophyta;Spermatophyta;Magnoliophyta;Liliopsida;Commelinales;Philydrum;	Philydrum lanuginosum	12107
+AY952392	1	1764	Eukaryota;Archaeplastida;Chloroplastida;Charophyta;Phragmoplastophyta;Streptophyta;Embryophyta;Tracheophyta;Spermatophyta;Magnoliophyta;Liliopsida;Alismatales;Ottelia;	Ottelia acuminata	11918
+AY952395	1	1692	Eukaryota;Archaeplastida;Chloroplastida;Charophyta;Phragmoplastophyta;Streptophyta;Embryophyta;Tracheophyta;Spermatophyta;Magnoliophyta;Liliopsida;Alismatales;Limnocharis;	Limnocharis flava	11915
+AY952397	1	1716	Eukaryota;Archaeplastida;Chloroplastida;Charophyta;Phragmoplastophyta;Streptophyta;Embryophyta;Tracheophyta;Spermatophyta;Magnoliophyta;Liliopsida;Alismatales;Hydrocleys;	Hydrocleys nymphoides	11913
+AY952398	1	1659	Eukaryota;Archaeplastida;Chloroplastida;Charophyta;Phragmoplastophyta;Streptophyta;Embryophyta;Tracheophyta;Spermatophyta;Magnoliophyta;Liliopsida;Alismatales;Hydrocharis;	Hydrocharis dubia	11912
+AY952400	1	1670	Eukaryota;Archaeplastida;Chloroplastida;Charophyta;Phragmoplastophyta;Streptophyta;Embryophyta;Tracheophyta;Spermatophyta;Magnoliophyta;Liliopsida;Incertae Sedis;Halophila;	Halophila ovalis	27162
+AY952402	1	1769	Eukaryota;Archaeplastida;Chloroplastida;Charophyta;Phragmoplastophyta;Streptophyta;Embryophyta;Tracheophyta;Spermatophyta;Magnoliophyta;Liliopsida;Poales;Eriocaulon;	Eriocaulon aquaticum	12186
+AY952403	1	1656	Eukaryota;Archaeplastida;Chloroplastida;Charophyta;Phragmoplastophyta;Streptophyta;Embryophyta;Tracheophyta;Spermatophyta;Magnoliophyta;Liliopsida;Alismatales;Enhalus;	Enhalus acoroides	11908
+AY952405	1	1669	Eukaryota;Archaeplastida;Chloroplastida;Charophyta;Phragmoplastophyta;Streptophyta;Embryophyta;Tracheophyta;Spermatophyta;Magnoliophyta;Liliopsida;Alismatales;Caldesia;	Caldesia oligococca	11903
+AY952406	1	1678	Eukaryota;Archaeplastida;Chloroplastida;Charophyta;Phragmoplastophyta;Streptophyta;Embryophyta;Tracheophyta;Spermatophyta;Magnoliophyta;Liliopsida;Alismatales;Blyxa;	Blyxa japonica	11902
+AY952407	1	1745	Eukaryota;Archaeplastida;Chloroplastida;Charophyta;Phragmoplastophyta;Streptophyta;Embryophyta;Tracheophyta;Spermatophyta;Magnoliophyta;Liliopsida;Poales;Billbergia;	Billbergia pyramidalis	12180
+AY952410	1	1723	Eukaryota;Archaeplastida;Chloroplastida;Charophyta;Phragmoplastophyta;Streptophyta;Embryophyta;Tracheophyta;Spermatophyta;Magnoliophyta;Liliopsida;Commelinales;Amischotolype;	Amischotolype hispida	27155
+AY952411	1	1773	Eukaryota;Archaeplastida;Chloroplastida;Charophyta;Phragmoplastophyta;Streptophyta;Embryophyta;Tracheophyta;Spermatophyta;Magnoliophyta;Liliopsida;Pandanales;Acanthochlamys;	Acanthochlamys bracteata	12157
+AY954993	1	1727	Eukaryota;Archaeplastida;Chloroplastida;Chlorophyta;Mamiellophyceae;Mamiellales;Micromonas;	Micromonas pusilla	12634
+AY954994	1	1727	Eukaryota;Archaeplastida;Chloroplastida;Chlorophyta;Mamiellophyceae;Mamiellales;Micromonas;	Micromonas pusilla	12634
+AY954995	1	1726	Eukaryota;Archaeplastida;Chloroplastida;Chlorophyta;Mamiellophyceae;Mamiellales;Micromonas;	Micromonas pusilla	12634
+AY954996	1	1726	Eukaryota;Archaeplastida;Chloroplastida;Chlorophyta;Mamiellophyceae;Mamiellales;Micromonas;	Micromonas pusilla	12634
+AY954997	1	1727	Eukaryota;Archaeplastida;Chloroplastida;Chlorophyta;Mamiellophyceae;Mamiellales;Micromonas;	Micromonas pusilla	12634
+AY954998	1	1727	Eukaryota;Archaeplastida;Chloroplastida;Chlorophyta;Mamiellophyceae;Mamiellales;Micromonas;	Micromonas pusilla	12634
+AY954999	1	1726	Eukaryota;Archaeplastida;Chloroplastida;Chlorophyta;Mamiellophyceae;Mamiellales;Micromonas;	Micromonas pusilla	12634
+AY955000	1	1728	Eukaryota;Archaeplastida;Chloroplastida;Chlorophyta;Mamiellophyceae;Mamiellales;Micromonas;	Micromonas pusilla	12634
+AY955001	1	1727	Eukaryota;Archaeplastida;Chloroplastida;Chlorophyta;Mamiellophyceae;Mamiellales;Micromonas;	Micromonas pusilla	12634
+AY955002	1	1727	Eukaryota;Archaeplastida;Chloroplastida;Chlorophyta;Mamiellophyceae;Mamiellales;Micromonas;	Micromonas pusilla	12634
+AY955003	1	1727	Eukaryota;Archaeplastida;Chloroplastida;Chlorophyta;Mamiellophyceae;Mamiellales;Micromonas;	Micromonas pusilla	12634
+AY955004	1	1731	Eukaryota;Archaeplastida;Chloroplastida;Chlorophyta;Mamiellophyceae;Mamiellales;Micromonas;	Micromonas pusilla	12634
+AY955005	1	1727	Eukaryota;Archaeplastida;Chloroplastida;Chlorophyta;Mamiellophyceae;Mamiellales;Micromonas;	Micromonas pusilla	12634
+AY955006	1	1727	Eukaryota;Archaeplastida;Chloroplastida;Chlorophyta;Mamiellophyceae;Mamiellales;Micromonas;	Micromonas pusilla	12634
+AY955007	1	1727	Eukaryota;Archaeplastida;Chloroplastida;Chlorophyta;Mamiellophyceae;Mamiellales;Micromonas;	Micromonas pusilla	12634
+AY955008	1	1727	Eukaryota;Archaeplastida;Chloroplastida;Chlorophyta;Mamiellophyceae;Mamiellales;Micromonas;	Micromonas pusilla	12634
+AY955009	1	1727	Eukaryota;Archaeplastida;Chloroplastida;Chlorophyta;Mamiellophyceae;Mamiellales;Micromonas;	Micromonas pusilla	12634
+AY955010	1	1727	Eukaryota;Archaeplastida;Chloroplastida;Chlorophyta;Mamiellophyceae;Mamiellales;Micromonas;	Micromonas pusilla	12634
+AY955011	1	1727	Eukaryota;Archaeplastida;Chloroplastida;Chlorophyta;Mamiellophyceae;Mamiellales;Micromonas;	Micromonas pusilla	12634
+AY956324	1	1666	Eukaryota;SAR;Stramenopiles;Incertae Sedis;Blastocystis;	Blastocystis hominis	13813
+AY957442	1	1739	Eukaryota;Archaeplastida;Chloroplastida;Charophyta;Phragmoplastophyta;Streptophyta;Embryophyta;Tracheophyta;Spermatophyta;Magnoliophyta;Saxifragales;Cynomorium;	Cynomorium coccineum	27247
+AY957443	1	1742	Eukaryota;Archaeplastida;Chloroplastida;Charophyta;Phragmoplastophyta;Streptophyta;Embryophyta;Tracheophyta;Spermatophyta;Magnoliophyta;Santalales;Dactylanthus;	Dactylanthus taylorii	5405
+AY957444	1	1742	Eukaryota;Archaeplastida;Chloroplastida;Charophyta;Phragmoplastophyta;Streptophyta;Embryophyta;Tracheophyta;Spermatophyta;Magnoliophyta;Santalales;Hachettea;	Hachettea austrocaledonica	5428
+AY957445	1	1737	Eukaryota;Archaeplastida;Chloroplastida;Charophyta;Phragmoplastophyta;Streptophyta;Embryophyta;Tracheophyta;Spermatophyta;Magnoliophyta;Santalales;Mystropetalon;	Mystropetalon thomii	5453
+AY958085	147486	148980	Bacteria;Cyanobacteriota;Cyanobacteriia;Chloroplast;Incertae Sedis;Incertae Sedis;	Staurastrum punctulatum	60300
+AY958086	93078	94568	Bacteria;Cyanobacteriota;Cyanobacteriia;Chloroplast;Incertae Sedis;Incertae Sedis;	Zygnema circumcarinatum	60300
+AY964057	1	1774	Eukaryota;Archaeplastida;Rhodophyceae;Florideophycidae;Rhodymeniophycidae;Crassitegula;	Crassitegula walsinghamii	6004
+AY968391	1	1736	Eukaryota;Archaeplastida;Chloroplastida;Charophyta;Phragmoplastophyta;Streptophyta;Embryophyta;Tracheophyta;Spermatophyta;Magnoliophyta;Cucurbitales;Begonia;	Begonia herbacea	4567
+AY968393	1	1771	Eukaryota;Archaeplastida;Chloroplastida;Charophyta;Phragmoplastophyta;Streptophyta;Embryophyta;Tracheophyta;Spermatophyta;Magnoliophyta;Cucurbitales;Combretocarpus;	Combretocarpus rotundatus	50837
+AY968399	1	1785	Eukaryota;Archaeplastida;Chloroplastida;Charophyta;Phragmoplastophyta;Streptophyta;Embryophyta;Tracheophyta;Spermatophyta;Magnoliophyta;Cucurbitales;Neoalsomitra;	Neoalsomitra sarcophylla	4579
+AY973014	1	1714	Eukaryota;Archaeplastida;Chloroplastida;Charophyta;Phragmoplastophyta;Streptophyta;Embryophyta;Tracheophyta;Spermatophyta;Magnoliophyta;Cucurbitales;Gynostemma;	Gynostemma pentaphyllum	4575
+AY973017	1	1754	Eukaryota;Archaeplastida;Chloroplastida;Charophyta;Phragmoplastophyta;Streptophyta;Embryophyta;Tracheophyta;Spermatophyta;Magnoliophyta;Cucurbitales;Xerosicyos;	Xerosicyos danguyi	4585
+BD359736	3	2150	Eukaryota;SAR;Alveolata;Apicomplexa;Aconoidasida;Haemosporoidia;Plasmodium;	Plasmodium malariae	8775
+BK000554	38550	40023	Bacteria;Cyanobacteriota;Cyanobacteriia;Chloroplast;Incertae Sedis;Incertae Sedis;	Chlamydomonas reinhardtii	60300
+BK000554	154180	155653	Bacteria;Cyanobacteriota;Cyanobacteriia;Chloroplast;Incertae Sedis;Incertae Sedis;	Chlamydomonas reinhardtii	60300
+BK010421	126289	128223	Bacteria;Pseudomonadota;Alphaproteobacteria;Rickettsiales;Mitochondria;Incertae Sedis;	Arabidopsis thaliana (thale cress)	61902
+BT070196	1	1443	Eukaryota;Archaeplastida;Chloroplastida;Charophyta;Phragmoplastophyta;Streptophyta;Embryophyta;Tracheophyta;Spermatophyta;Magnoliophyta;Liliopsida;Poales;Zea;	Zea mays	10127
+EH185640	1	1300	Eukaryota;Archaeplastida;Chloroplastida;Charophyta;Phragmoplastophyta;Streptophyta;Embryophyta;Tracheophyta;Spermatophyta;Magnoliophyta;Liliopsida;Poales;Eragrostis;	Eragrostis curvula (weeping love grass)	12185
+EH185679	1	1295	Eukaryota;Archaeplastida;Chloroplastida;Charophyta;Phragmoplastophyta;Streptophyta;Embryophyta;Tracheophyta;Spermatophyta;Magnoliophyta;Liliopsida;Poales;Eragrostis;	Eragrostis curvula (weeping love grass)	12185
+EH189129	5	1367	Eukaryota;Archaeplastida;Chloroplastida;Charophyta;Phragmoplastophyta;Streptophyta;Embryophyta;Tracheophyta;Spermatophyta;Magnoliophyta;Liliopsida;Poales;Eragrostis;	Eragrostis curvula (weeping love grass)	12185
+ET632854	1	1312	Bacteria;Spirochaetota;Spirochaetia;Spirochaetales;Spirochaetaceae;Treponema;	Treponema lecithinolyticum	46624
+FW562653	1	1495	Bacteria;Bacillota;Clostridia;Oscillospirales;Oscillospiraceae;Thermoclostridium;	unidentified	59242
+FW562661	1	1555	Bacteria;Bacillota;Thermoanaerobacteria;Thermoanaerobacterales;Family III;Thermoanaerobacterium;	unidentified	59632
+FW576170	1	1394	Bacteria;Actinomycetota;Actinobacteria;Bifidobacteriales;Bifidobacteriaceae;Bifidobacterium;	unidentified	57988
+FZ423313	1	1291	Bacteria;Bacillota;Bacilli;Bacillales;Bacillaceae;Anoxybacillus;	unidentified	58658
+HA782847	3	1866	Eukaryota;Amorphea;Obazoa;Opisthokonta;Holozoa;Choanozoa;Metazoa;Animalia;BCP clade;Bilateria;Deuterostomia;Chordata;Vertebrata;Gnathostomata;Euteleostomi;Tetrapoda;Mammalia;	Rattus norvegicus (Norway rat)	47087
+HD113450	3	2020	Eukaryota;SAR;Alveolata;Apicomplexa;Aconoidasida;Haemosporoidia;Plasmodium;	Plasmodium falciparum (malaria parasite P. falciparum)	8775
+HD113451	175	2311	Eukaryota;SAR;Alveolata;Apicomplexa;Aconoidasida;Haemosporoidia;Plasmodium;	Plasmodium malariae	8775
+HG529990	1	1403	Bacteria;Bacteroidota;Bacteroidia;Cytophagales;Cyclobacteriaceae;Algoriphagus;	Algoriphagus sp. AK58	44069
+HG529991	1	1409	Bacteria;Pseudomonadota;Gammaproteobacteria;Chromatiales;Chromatiaceae;Thiorhodococcus;	Thiorhodococcus sp. AK59	62405
+HG529993	1	1428	Bacteria;Pseudomonadota;Alphaproteobacteria;Rhodobacterales;Paracoccaceae;Rhodovulum;	Rhodovulum mangrovi	61793
+HG529994	1	1469	Bacteria;Pseudomonadota;Gammaproteobacteria;Enterobacterales;Alteromonadaceae;Aestuariibacter;	Aliiglaciecola coringensis	62462
+HG529995	1	1433	Bacteria;Pseudomonadota;Alphaproteobacteria;Rhodobacterales;Paracoccaceae;Rhodobacter;	Rhodobacter sp. AK39	61790
+HG529996	1	1397	Bacteria;Pseudomonadota;Alphaproteobacteria;Rhodobacterales;Paracoccaceae;Rhodovulum;	Rhodovulum sp. AK42	61793
+HG529997	1	1373	Bacteria;Pseudomonadota;Gammaproteobacteria;Enterobacterales;Pseudoalteromonadaceae;Pseudoalteromonas;	Pseudoalteromonas sp. AK46	62649
+HG530068	754687	756210	Bacteria;Pseudomonadota;Gammaproteobacteria;Pseudomonadales;Pseudomonadaceae;Pseudomonas;	Pseudomonas aeruginosa PA38182	63054
+HG530135	9007	10511	Bacteria;Bacillota;Clostridia;Clostridiales;Clostridiaceae;Clostridium;	Clostridium tetani 12124569	59057
+HG530135	42678	44183	Bacteria;Bacillota;Clostridia;Clostridiales;Clostridiaceae;Clostridium;	Clostridium tetani 12124569	59057
+HG530135	175707	177207	Bacteria;Bacillota;Clostridia;Clostridiales;Clostridiaceae;Clostridium;	Clostridium tetani 12124569	59057
+HG530135	2805762	2807210	Bacteria;Bacillota;Clostridia;Clostridiales;Clostridiaceae;Clostridium;	Clostridium tetani 12124569	59057
+HG530234	1	1503	Bacteria;Pseudomonadota;Gammaproteobacteria;Gammaproteobacteria Incertae Sedis;Unknown Family;Candidatus Endonucleariobacter;	Candidatus Endonucleariobacter rarus	62725
+HG530243	1	1493	Bacteria;Pseudomonadota;Gammaproteobacteria;Burkholderiales;Comamonadaceae;Paucibacter;	Paucibacter toxinivorans	62186
+HG531387	1	1446	Bacteria;Spirochaetota;Spirochaetia;Spirochaetales;Spirochaetaceae;Alkalispirochaeta;	Alkalispirochaeta cellulosivorans	46612
+HG531388	1	1375	Bacteria;Pseudomonadota;Alphaproteobacteria;Hyphomicrobiales;Xanthobacteraceae;Rhodoplanes;	Rhodoplanes oryzae	61560
+HG726037	1	1490	Bacteria;Bacillota;Bacilli;Bacillales;Bacillaceae;Neobacillus;	Bacillus sp. JCA	58695
+HG726039	1	1478	Bacteria;Bacillota;Clostridia;Clostridiales;Clostridiaceae;Clostridium;	Clostridium saudiense	59057
+HG726040	1	1387	Bacteria;Bacillota;Clostridia;Oscillospirales;Ruminococcaceae;Incertae Sedis;	Clostridium jeddahense	59263
+HG726047	1	1526	Bacteria;Chlamydiota;Chlamydiia;Chlamydiales;Parachlamydiaceae;Candidatus Rubidus;	Candidatus Rubidus massiliensis	59952
+HG738132	1	1441	Bacteria;Bacteroidota;Bacteroidia;Flavobacteriales;Weeksellaceae;Chryseobacterium;	Chryseobacterium geocarposphaerae	44317
+HG738133	1	1443	Bacteria;Bacteroidota;Bacteroidia;Flavobacteriales;Weeksellaceae;Chryseobacterium;	Chryseobacterium geocarposphaerae	44317
+HG738134	1	1440	Bacteria;Bacteroidota;Bacteroidia;Flavobacteriales;Weeksellaceae;Chryseobacterium;	Chryseobacterium arachidis	44317
+HG738135	1	1440	Bacteria;Bacteroidota;Bacteroidia;Flavobacteriales;Weeksellaceae;Chryseobacterium;	Chryseobacterium zeae	44317
+HG738867	223770	225311	Bacteria;Pseudomonadota;Gammaproteobacteria;Enterobacterales;Enterobacteriaceae;Escherichia-Shigella;	Escherichia coli str. K-12 substr. MC4100	62507
+HG738867	2611898	2613439	Bacteria;Pseudomonadota;Gammaproteobacteria;Enterobacterales;Enterobacteriaceae;Escherichia-Shigella;	Escherichia coli str. K-12 substr. MC4100	62507
+HG738867	2743026	2744567	Bacteria;Pseudomonadota;Gammaproteobacteria;Enterobacterales;Enterobacteriaceae;Escherichia-Shigella;	Escherichia coli str. K-12 substr. MC4100	62507
+HG738867	2836749	2838290	Bacteria;Pseudomonadota;Gammaproteobacteria;Enterobacterales;Enterobacteriaceae;Escherichia-Shigella;	Escherichia coli str. K-12 substr. MC4100	62507
+HG738867	3353849	3355390	Bacteria;Pseudomonadota;Gammaproteobacteria;Enterobacterales;Enterobacteriaceae;Escherichia-Shigella;	Escherichia coli str. K-12 substr. MC4100	62507
+HG738867	4052624	4054165	Bacteria;Pseudomonadota;Gammaproteobacteria;Enterobacterales;Enterobacteriaceae;Escherichia-Shigella;	Escherichia coli str. K-12 substr. MC4100	62507
+HG738867	4094103	4095644	Bacteria;Pseudomonadota;Gammaproteobacteria;Enterobacterales;Enterobacteriaceae;Escherichia-Shigella;	Escherichia coli str. K-12 substr. MC4100	62507
+HG738868	283378	284902	Bacteria;Pseudomonadota;Gammaproteobacteria;Enterobacterales;Yersiniaceae;Serratia;	Serratia marcescens SMB2099	62697
+HG738868	325445	326969	Bacteria;Pseudomonadota;Gammaproteobacteria;Enterobacterales;Yersiniaceae;Serratia;	Serratia marcescens SMB2099	62697
+HG738868	935400	936925	Bacteria;Pseudomonadota;Gammaproteobacteria;Enterobacterales;Yersiniaceae;Serratia;	Serratia marcescens SMB2099	62697
+HG738868	3991185	3992709	Bacteria;Pseudomonadota;Gammaproteobacteria;Enterobacterales;Yersiniaceae;Serratia;	Serratia marcescens SMB2099	62697
+HG738868	4718017	4719541	Bacteria;Pseudomonadota;Gammaproteobacteria;Enterobacterales;Yersiniaceae;Serratia;	Serratia marcescens SMB2099	62697
+HG738868	4994650	4996180	Bacteria;Pseudomonadota;Gammaproteobacteria;Enterobacterales;Yersiniaceae;Serratia;	Serratia marcescens SMB2099	62697
+HG738868	5121221	5122745	Bacteria;Pseudomonadota;Gammaproteobacteria;Enterobacterales;Yersiniaceae;Serratia;	Serratia marcescens SMB2099	62697
+HG763856	1	1279	Bacteria;Pseudomonadota;Gammaproteobacteria;Enterobacterales;Aeromonadaceae;Aeromonas;	Aeromonas sp. SAL-12	62454
+HL182401	2	1459	Bacteria;Bacillota;Bacilli;Bacillales;Bacillaceae;Priestia;	unidentified	58707
+HL196863	5160	6942	Eukaryota;SAR;Stramenopiles;Labyrinthulomycetes;Thraustochytriaceae;Thraustochytrium;	unidentified	9674
+HL196889	3823	5593	Eukaryota;SAR;Stramenopiles;Labyrinthulomycetes;Thraustochytriaceae;Thraustochytrium;	unidentified	9674
+HL231758	9	1821	Eukaryota;SAR;Stramenopiles;Labyrinthulomycetes;Thraustochytriaceae;Thraustochytrium;	unidentified	9674
+HL281552	1	1487	Bacteria;Actinomycetota;Actinobacteria;Actinomycetales;Actinomycetaceae;Actinotignum;	unidentified	57965
+HL281554	1	1313	Bacteria;Actinomycetota;Actinobacteria;Actinomycetales;Actinomycetaceae;F0332;	unidentified	57970
+HL281584	1	1534	Bacteria;Actinomycetota;Actinobacteria;Actinomycetales;Actinomycetaceae;Schaalia;	unidentified	57976
+HL281639	8	1404	Bacteria;Bacillota;Clostridia;Peptostreptococcales-Tissierellales;Natronincolaceae;Alkaliphilus;	unidentified	59358
+HL281652	2	1435	Bacteria;Bacillota;Clostridia;Peptostreptococcales-Tissierellales;Family XI;Anaerococcus;	unidentified	59321
+HL281698	6	1382	Bacteria;Bacillota;Bacilli;Bacillales;Bacillaceae;Bacillus;	unidentified	58662
+HL281707	1	1351	Bacteria;Bacillota;Bacilli;Bacillales;Bacillaceae;Shouchella;	unidentified	58719
+HL281749	1	1478	Bacteria;Bacillota;Bacilli;Bacillales;Sporolactobacillaceae;Incertae Sedis;	unidentified	58778
+HL281762	1	1281	Bacteria;Bacteroidota;Bacteroidia;Sphingobacteriales;Lentimicrobiaceae;Lentimicrobium;	unidentified	44341
+HL281770	11	1383	Bacteria;Bacteroidota;Bacteroidia;Bacteroidales;Bacteroidaceae;Bacteroides;	unidentified	43874
+HL281785	3	1301	Bacteria;Bacteroidota;Bacteroidia;Bacteroidales;Bacteroidaceae;Bacteroides;	unidentified	43874
+HL281833	10	1388	Bacteria;Bacteroidota;Bacteroidia;Bacteroidales;Bacteroidaceae;Bacteroides;	unidentified	43874
+HL281864	1	1405	Bacteria;Actinomycetota;Actinobacteria;Bifidobacteriales;Bifidobacteriaceae;Bifidobacterium;	unidentified	57988
+HL281956	3	1379	Bacteria;Bacteroidota;Bacteroidia;Bacteroidales;Marinifilaceae;Butyricimonas;	unidentified	43907
+HL281973	2	1492	Bacteria;Campylobacterota;Campylobacteria;Campylobacterales;Campylobacteraceae;Campylobacter;	unidentified	50056
+HL281983	1	1405	Bacteria;Bacteroidota;Bacteroidia;Flavobacteriales;Flavobacteriaceae;Capnocytophaga;	unidentified	44204
+HL282009	1	1337	Bacteria;Chlamydiota;Chlamydiia;Chlamydiales;Simkaniaceae;Incertae Sedis;	unidentified	59961
+HL282080	4	1365	Bacteria;Bacillota;Clostridia;Peptostreptococcales-Tissierellales;Peptostreptococcaceae;Clostridioides;	unidentified	59367
+HL282108	1	1362	Bacteria;Bacillota;Clostridia;Oscillospirales;Ruminococcaceae;[Clostridium] methylpentosum group;	unidentified	59272
+HL282114	4	1374	Bacteria;Bacillota;Clostridia;Clostridiales;Clostridiaceae;Clostridium;	unidentified	59057
+HL282141	4	1360	Bacteria;Bacillota;Clostridia;Lachnospirales;Lachnospiraceae;Roseburia;	unidentified	59178
+HL282146	1	1367	Bacteria;Bacillota;Bacilli;Erysipelotrichales;Erysipelatoclostridiaceae;Thomasclavelia;	unidentified	58807
+HL282161	1	1357	Bacteria;Actinomycetota;Coriobacteriia;Coriobacteriales;Coriobacteriaceae;Collinsella;	unidentified	58494
+HL282163	1	1264	Bacteria;Actinomycetota;Coriobacteriia;Coriobacteriales;Coriobacteriaceae;Collinsella;	unidentified	58494
+HL282209	1	1334	Bacteria;Actinomycetota;Actinobacteria;Mycobacteriales;Corynebacteriaceae;Corynebacterium;	unidentified	58316
+HL282257	2	1539	Bacteria;Thermodesulfobacteriota;Desulfobulbia;Desulfobulbales;Desulfobulbaceae;Desulfobulbus;	unidentified	63348
+HL282362	3	1368	Bacteria;Bacillota;Clostridia;Oscillospirales;Ruminococcaceae;[Eubacterium] siraeum group;	unidentified	59273
+HL282366	10	1371	Bacteria;Bacillota;Clostridia;Peptostreptococcales-Tissierellales;Anaerovoracaceae;Incertae Sedis;	unidentified	59297
+HL282395	1	1308	Bacteria;Fusobacteriota;Fusobacteriia;Fusobacteriales;Fusobacteriaceae;Fusobacterium;	unidentified	45860
+HL282422	2	1545	Bacteria;Fusobacteriota;Fusobacteriia;Fusobacteriales;Fusobacteriaceae;Fusobacterium;	unidentified	45860
+HL282454	1	1298	Bacteria;Actinomycetota;Actinobacteria;Mycobacteriales;Nocardiaceae;Gordonia;	unidentified	58331
+HL282509	1	1333	Bacteria;Pseudomonadota;Alphaproteobacteria;Hyphomicrobiales;Hyphomicrobiaceae;Hyphomicrobium;	unidentified	61431
+HL282527	2	1399	Bacteria;Pseudomonadota;Gammaproteobacteria;Enterobacterales;Enterobacteriaceae;Klebsiella;	unidentified	62510
+HL282540	4	1387	Bacteria;Pseudomonadota;Gammaproteobacteria;Enterobacterales;Enterobacteriaceae;Kluyvera;	unidentified	62511
+HL282560	10	1387	Bacteria;Bacillota;Clostridia;Lachnospirales;Lachnospiraceae;Faecalimonas;	unidentified	59128
+HL282960	1	1327	Bacteria;Bacillota;Clostridia;Peptostreptococcales-Tissierellales;Family XI;Parvimonas;	unidentified	59335
+JN043371	1	1442	Bacteria;Pseudomonadota;Gammaproteobacteria;Burkholderiales;Alcaligenaceae;Achromobacter;	Achromobacter sp. QXH	62076
+JN043518	1	1483	Bacteria;Bacillota;Bacilli;Lactobacillales;Lactobacillaceae;Lactiplantibacillus;	Lactobacillus plantarum	58911
+JN048683	1	1422	Archaea;Halobacteriota;Methanocellia;Methanocellales;Methanocellaceae;Methanocella;	Methanocella conradii HZ254	57514
+JN048950	1	1315	Bacteria;Bacillota;Clostridia;Clostridiales;Clostridiaceae;Clostridium;	Clostridium perfringens	59057
+JN049451	1	1457	Bacteria;Actinomycetota;Actinobacteria;Kitasatosporales;Streptomycetaceae;Streptomyces;	actinobacterium ZXY002	58076
+JN049458	1	1459	Bacteria;Actinomycetota;Actinobacteria;Kitasatosporales;Streptomycetaceae;Streptomyces;	actinobacterium ZXY009	58076
+JN049459	1	1443	Bacteria;Actinomycetota;Actinobacteria;Kitasatosporales;Streptomycetaceae;Streptomyces;	actinobacterium ZXY010	58076
+JN049461	1	1454	Bacteria;Actinomycetota;Actinobacteria;Kitasatosporales;Streptomycetaceae;Streptomyces;	actinobacterium ZXY012	58076
+JN049463	1	1474	Bacteria;Actinomycetota;Actinobacteria;Kitasatosporales;Streptomycetaceae;Streptomyces;	actinobacterium ZXY014	58076
+JN049464	1	1447	Bacteria;Actinomycetota;Actinobacteria;Kitasatosporales;Streptomycetaceae;Streptomyces;	actinobacterium ZXY015	58076
+JN049467	1	1451	Bacteria;Actinomycetota;Actinobacteria;Kitasatosporales;Streptomycetaceae;Streptomyces;	actinobacterium ZXY018	58076
+JN049468	1	1445	Bacteria;Actinomycetota;Actinobacteria;Kitasatosporales;Streptomycetaceae;Streptomyces;	actinobacterium ZXY019	58076
+JN049469	1	1396	Bacteria;Pseudomonadota;Alphaproteobacteria;Sphingomonadales;Sphingomonadaceae;Sphingomonas;	proteobacterium ZXY020	61970
+JN049473	1	1454	Bacteria;Actinomycetota;Actinobacteria;Mycobacteriales;Nocardiaceae;Nocardia;	actinobacterium ZXY024	58334
+JN049475	1	1470	Bacteria;Actinomycetota;Actinobacteria;Streptosporangiales;Nocardiopsidaceae;Nocardiopsis;	actinobacterium ZXY026	58443
+JN049476	1	1446	Bacteria;Actinomycetota;Actinobacteria;Micromonosporales;Micromonosporaceae;Micromonospora;	actinobacterium ZXY027	58299
+JN049477	1	1481	Bacteria;Actinomycetota;Actinobacteria;Kitasatosporales;Streptomycetaceae;Streptomyces;	actinobacterium ZXY028	58076
+JN049478	1	1448	Bacteria;Actinomycetota;Actinobacteria;Mycobacteriales;Dietziaceae;Dietzia;	actinobacterium ZXY029	58320
+JN049480	1	1450	Bacteria;Actinomycetota;Actinobacteria;Micromonosporales;Micromonosporaceae;Verrucosispora;	actinobacterium ZXY031	58312
+JN049481	1	1442	Bacteria;Actinomycetota;Actinobacteria;Mycobacteriales;Nocardiaceae;Nocardia;	actinobacterium ZXY032	58334
+JN049482	1	1452	Bacteria;Actinomycetota;Actinobacteria;Pseudonocardiales;Pseudonocardiaceae;Pseudonocardia;	actinobacterium ZXY033	58417
+JN049483	1	1455	Bacteria;Actinomycetota;Actinobacteria;Micrococcales;Microbacteriaceae;Agrococcus;	actinobacterium ZXY034	58164
+JN049484	1	1456	Bacteria;Actinomycetota;Actinobacteria;Pseudonocardiales;Pseudonocardiaceae;Saccharopolyspora;	actinobacterium ZXY035	58419
+JN049485	1	1453	Bacteria;Actinomycetota;Actinobacteria;Mycobacteriales;Nocardiaceae;Nocardia;	actinobacterium ZXY036	58334
+JN049487	1	1459	Bacteria;Actinomycetota;Actinobacteria;Pseudonocardiales;Pseudonocardiaceae;Saccharomonospora;	actinobacterium ZXY038	58418
+JN049489	1	1452	Bacteria;Actinomycetota;Actinobacteria;Micromonosporales;Micromonosporaceae;Micromonospora;	actinobacterium ZXY040	58299
+JN049490	1	1446	Bacteria;Actinomycetota;Actinobacteria;Micromonosporales;Micromonosporaceae;Micromonospora;	actinobacterium ZXY041	58299
+JN049491	1	1448	Bacteria;Actinomycetota;Actinobacteria;Micromonosporales;Micromonosporaceae;Micromonospora;	actinobacterium ZXY042	58299
+JN049492	1	1451	Bacteria;Actinomycetota;Actinobacteria;Micromonosporales;Micromonosporaceae;Micromonospora;	actinobacterium ZXY043	58299
+JN049503	1	1354	Bacteria;Actinomycetota;Actinobacteria;Mycobacteriales;Mycobacteriaceae;Mycobacterium;	Mycobacterium paraffinicum	58326
+JN049504	1	1356	Bacteria;Actinomycetota;Actinobacteria;Mycobacteriales;Mycobacteriaceae;Mycobacterium;	Mycobacterium gordonae	58326
+JN049507	1	1350	Bacteria;Actinomycetota;Actinobacteria;Mycobacteriales;Mycobacteriaceae;Mycobacterium;	Mycobacterium avium complex sp.	58326
+JN049509	1	1356	Bacteria;Actinomycetota;Actinobacteria;Mycobacteriales;Mycobacteriaceae;Mycobacterium;	Mycobacterium avium	58326
+JN050256	1	1491	Bacteria;Actinomycetota;Actinobacteria;Kitasatosporales;Streptomycetaceae;Streptomyces;	Streptomyces chilikensis	58076
+JN050969	1	1470	Bacteria;Bacillota;Bacilli;Paenibacillales;Paenibacillaceae;Paenibacillus;	Paenibacillus ehimensis	58976
+JN051145	1	1384	Bacteria;Chlamydiota;Chlamydiia;Chlamydiales;Simkaniaceae;Incertae Sedis;	Rhabdochlamydiaceae bacterium NS3	59961
+JN051487	1	1558	Bacteria;Pseudomonadota;Gammaproteobacteria;Burkholderiales;Burkholderiaceae;Burkholderia-Caballeronia-Paraburkholderia;	Caballeronia glathei	62115
+JN051488	1	1437	Bacteria;Actinomycetota;Actinobacteria;Mycobacteriales;Nocardiaceae;Rhodococcus;	Rhodococcus erythropolis	58335
+JN052145	1	1337	Bacteria;Pseudomonadota;Gammaproteobacteria;Pseudomonadales;Pseudomonadaceae;Pseudomonas;	Pseudomonas sp. TSR26	63054
+JN052146	1	1326	Bacteria;Bacillota;Bacilli;Paenibacillales;Paenibacillaceae;Paenibacillus;	Paenibacillus chibensis	58976
+JN052147	1	1363	Bacteria;Actinomycetota;Actinobacteria;Mycobacteriales;Nocardiaceae;Gordonia;	Gordonia sp. TSR44	58331
+JN052148	1	1354	Bacteria;Bacillota;Bacilli;Paenibacillales;Paenibacillaceae;Paenibacillus;	Paenibacillus sp. TSR47	58976
+JN052205	1	1532	Bacteria;Pseudomonadota;Gammaproteobacteria;Enterobacterales;Aeromonadaceae;Oceanisphaera;	Oceanisphaera sp. K1C10	62457
+JN053269	1	1515	Bacteria;Pseudomonadota;Gammaproteobacteria;Enterobacterales;Enterobacteriaceae;Enterobacter;	Enterobacter sp. BMC3	62506
+JN053413	1	1374	Bacteria;Bacillota;Bacilli;Bacillales;Bacillaceae;Fictibacillus;	Bacillus sp. CBW3	58673
+JN082244	1	1474	Bacteria;Actinomycetota;Actinobacteria;Micrococcales;Micrococcaceae;Neomicrococcus;	Micrococcus sp. ce2	58244
+JN082252	1	1416	Bacteria;Pseudomonadota;Alphaproteobacteria;Caulobacterales;Caulobacteraceae;Brevundimonas;	Brevundimonas intermedia	61310
+JN082729	1	1449	Bacteria;Bacillota;Bacilli;Bacillales;Bacillaceae;Priestia;	Bacillus sp. MR5	58707
+JN082730	1	1437	Bacteria;Pseudomonadota;Gammaproteobacteria;Enterobacterales;Erwiniaceae;Pantoea;	Pantoea sp. MR8	62531
+JN082734	1	1454	Bacteria;Bacillota;Bacilli;Bacillales;Bacillaceae;Priestia;	Bacillus sp. E7	58707
+JN082738	1	1391	Bacteria;Pseudomonadota;Alphaproteobacteria;Hyphomicrobiales;Rhizobiaceae;Ensifer;	Ensifer sp. MN4	61493
+JN082739	1	1372	Bacteria;Pseudomonadota;Alphaproteobacteria;Sphingomonadales;Sphingomonadaceae;Novosphingobium;	Novosphingobium sp. MN6	61947
+JN082740	1	1392	Bacteria;Pseudomonadota;Alphaproteobacteria;Hyphomicrobiales;Rhizobiaceae;Agrobacterium;	Rhizobium sp. MN7	61474
+JN082741	1	1393	Bacteria;Pseudomonadota;Alphaproteobacteria;Sphingomonadales;Sphingomonadaceae;Novosphingobium;	Novosphingobium sp. MN9	61947
+JN082744	1	1423	Bacteria;Actinomycetota;Actinobacteria;Mycobacteriales;Nocardiaceae;Rhodococcus;	Rhodococcus sp. MN18	58335
+JN082745	1	1401	Bacteria;Pseudomonadota;Alphaproteobacteria;Sphingomonadales;Sphingomonadaceae;Novosphingobium;	Novosphingobium sp. MN28	61947
+JN082746	1	1400	Bacteria;Pseudomonadota;Alphaproteobacteria;Sphingomonadales;Sphingomonadaceae;Sphingobium;	Sphingomonas sp. MN35	61968
+JN082747	1	1402	Bacteria;Pseudomonadota;Alphaproteobacteria;Sphingomonadales;Sphingomonadaceae;Novosphingobium;	Novosphingobium sp. MN38	61947
+JN082748	1	1459	Bacteria;Pseudomonadota;Gammaproteobacteria;Lysobacterales;Lysobacteraceae;Stenotrophomonas;	Stenotrophomonas sp. NR17	62796
+JN082749	1	1447	Bacteria;Pseudomonadota;Gammaproteobacteria;Pseudomonadales;Pseudomonadaceae;Pseudomonas;	Pseudomonas sp. NR25	63054
+JN082751	1	1458	Bacteria;Pseudomonadota;Gammaproteobacteria;Lysobacterales;Lysobacteraceae;Luteimonas;	Luteimonas sp. NR40	62790
+JN083778	1	1449	Bacteria;Pseudomonadota;Gammaproteobacteria;Enterobacterales;Aeromonadaceae;Aeromonas;	Aeromonas veronii	62454
+JN084129	1	1321	Bacteria;Bacillota;Bacilli;Bacillales;Bacillaceae;Peribacillus;	Bacillus asahii	58703
+JN084138	1	1416	Bacteria;Actinomycetota;Actinobacteria;Micrococcales;Microbacteriaceae;Microbacterium;	Microbacterium testaceum	58210
+JN084148	1	1395	Bacteria;Pseudomonadota;Gammaproteobacteria;Lysobacterales;Lysobacteraceae;Lysobacter;	Lysobacter soli	62791
+JN084162	1	1377	Bacteria;Actinomycetota;Actinobacteria;Micrococcales;Microbacteriaceae;Microbacterium;	Microbacterium flavescens	58210
+JN084199	1	1238	Bacteria;Bacteroidota;Bacteroidia;Bacteroidales;Bacteroidaceae;Bacteroides;	Bacteroides fragilis	43874
+JN084219	1	1514	Bacteria;Bacillota;Bacilli;Exiguobacterales;Exiguobacteraceae;Exiguobacterium;	Exiguobacterium aestuarii	58841
+JN084549	1	1431	Bacteria;Bacillota;Bacilli;Staphylococcales;Staphylococcaceae;Staphylococcus;	Staphylococcus aureus	59000
+JN084550	1	1412	Bacteria;Bacillota;Bacilli;Staphylococcales;Staphylococcaceae;Staphylococcus;	Staphylococcus aureus	59000
+JN084559	1	1432	Bacteria;Bacillota;Bacilli;Staphylococcales;Staphylococcaceae;Staphylococcus;	Staphylococcus aureus	59000
+JN085488	1	1384	Bacteria;Pseudomonadota;Alphaproteobacteria;Hyphomicrobiales;Xanthobacteraceae;Bradyrhizobium;	Bradyrhizobium sp. ORS 3634	61553
+JN085489	1	1385	Bacteria;Pseudomonadota;Alphaproteobacteria;Hyphomicrobiales;Xanthobacteraceae;Bradyrhizobium;	Bradyrhizobium sp. ORS 3635	61553
+JN085491	1	1385	Bacteria;Pseudomonadota;Alphaproteobacteria;Hyphomicrobiales;Xanthobacteraceae;Bradyrhizobium;	Bradyrhizobium sp. ORS 3637	61553
+JN085492	1	1326	Bacteria;Pseudomonadota;Alphaproteobacteria;Hyphomicrobiales;Xanthobacteraceae;Bradyrhizobium;	Bradyrhizobium sp. ORS 3638	61553
+JN085493	1	1300	Bacteria;Pseudomonadota;Alphaproteobacteria;Hyphomicrobiales;Xanthobacteraceae;Bradyrhizobium;	Bradyrhizobium sp. ORS 3639	61553
+JN085495	1	1385	Bacteria;Pseudomonadota;Alphaproteobacteria;Hyphomicrobiales;Xanthobacteraceae;Bradyrhizobium;	Bradyrhizobium sp. ORS 3641	61553
+JN085501	1	1375	Bacteria;Pseudomonadota;Alphaproteobacteria;Hyphomicrobiales;Xanthobacteraceae;Bradyrhizobium;	Bradyrhizobium sp. ORS 3649	61553
+JN085504	1	1383	Bacteria;Pseudomonadota;Alphaproteobacteria;Hyphomicrobiales;Xanthobacteraceae;Bradyrhizobium;	Bradyrhizobium sp. ORS 3668	61553
+JN085505	1	1385	Bacteria;Pseudomonadota;Alphaproteobacteria;Hyphomicrobiales;Xanthobacteraceae;Bradyrhizobium;	Bradyrhizobium sp. ORS 3669	61553
+JN085506	1	1382	Bacteria;Pseudomonadota;Alphaproteobacteria;Hyphomicrobiales;Rhizobiaceae;Mesorhizobium;	Mesorhizobium sp. ORS 3652	61502
+JN085507	1	1379	Bacteria;Pseudomonadota;Alphaproteobacteria;Hyphomicrobiales;Rhizobiaceae;Mesorhizobium;	Mesorhizobium sp. ORS 3654	61502
+JN085512	1	1218	Bacteria;Pseudomonadota;Alphaproteobacteria;Hyphomicrobiales;Rhizobiaceae;Mesorhizobium;	Mesorhizobium sp. ORS 3659	61502
+JN088203	1	1352	Bacteria;Bacillota;BRH-c20a;Incertae Sedis;Incertae Sedis;Incertae Sedis;	Clostridia bacterium HZ254C	58625
+JN089697	1	1407	Bacteria;Pseudomonadota;Alphaproteobacteria;Hyphomicrobiales;Rhizobiaceae;Ensifer;	Ensifer sp. AW24	61493
+JN089705	1	1216	Bacteria;Pseudomonadota;Alphaproteobacteria;Hyphomicrobiales;Rhizobiaceae;Brucella;	Ochrobactrum sp. MVSV1	61483
+JN098519	1	1426	Bacteria;Actinomycetota;Actinobacteria;Propionibacteriales;Nocardioidaceae;Nocardioides;	Nocardia sp. J1(2011)	58362
+JQ790518	1	2028	Eukaryota;Amorphea;Obazoa;Opisthokonta;Holozoa;Choanozoa;Metazoa;Animalia;BCP clade;Bilateria;Protostomia;Ecdysozoa;Arthropoda;Hexapoda;Insecta;Pterygota;Neoptera;Diptera;	Sergentomyia barraudi	47180
+JQ798538	1	1714	Eukaryota;Amorphea;Obazoa;Opisthokonta;Holozoa;Choanozoa;Metazoa;Animalia;BCP clade;Bilateria;Protostomia;Lophotrochozoa;Gastrotricha;Chaetonotida;	Aspidiophorus paramediterraneus	47331
+KF159023	1	1819	Eukaryota;Amorphea;Obazoa;Opisthokonta;Holozoa;Choanozoa;Metazoa;Animalia;BCP clade;Bilateria;Protostomia;Lophotrochozoa;Gastrotricha;Chaetonotida;	Halichaetonotus schromi	47331
+KJ023674	1	1717	Eukaryota;Archaeplastida;Chloroplastida;Charophyta;Phragmoplastophyta;Streptophyta;Embryophyta;Tracheophyta;Spermatophyta;Magnoliophyta;Liliopsida;Asparagales;Listera;	Neottia cordata	12058
+KJ023697	1	1699	Eukaryota;Archaeplastida;Rhodophyceae;Bangiales;Bangia;	Bangia fuscopurpurea	5889
+KM209255	204	1909	Bacteria;Pseudomonadota;Gammaproteobacteria;Enterobacterales;Pectobacteriaceae;Dickeya;	Dickeya phage phiDP10.3	62639
+KU218551	1	1231	Bacteria;Pseudomonadota;Gammaproteobacteria;Enterobacterales;Enterobacteriaceae;Escherichia-Shigella;	Escherichia coli	62507
+KU219842	1	1233	Bacteria;Pseudomonadota;Gammaproteobacteria;Lysobacterales;Lysobacteraceae;Stenotrophomonas;	Stenotrophomonas maltophilia	62796
+KU221019	1	1481	Bacteria;Bacteroidota;Bacteroidia;Sphingobacteriales;Sphingobacteriaceae;Arcticibacter;	Arcticibacter sp. CUG00005	44350
+KU221020	1	1502	Bacteria;Pseudomonadota;Gammaproteobacteria;Pseudomonadales;Halomonadaceae;Halomonas;	Halomonas xiaochaidanensis	62976
+KU221072	1	1370	Bacteria;Actinomycetota;Actinobacteria;Micrococcales;Microbacteriaceae;Microbacterium;	Microbacterium sp. AlC-10	58210
+KU221427	1	1442	Bacteria;Pseudomonadota;Gammaproteobacteria;Pseudomonadales;Pseudomonadaceae;Pseudomonas;	bacterium L54	63054
+KU221439	1	1446	Bacteria;Pseudomonadota;Gammaproteobacteria;Enterobacterales;Enterobacteriaceae;Klebsiella;	bacterium R12	62510
+KU221441	1	1446	Bacteria;Pseudomonadota;Gammaproteobacteria;Enterobacterales;Enterobacteriaceae;Klebsiella;	bacterium L9	62510
+KY542118	1	1462	Bacteria;Pseudomonadota;Gammaproteobacteria;Enterobacterales;Yersiniaceae;Serratia;	Rhodotorula mucilaginosa/Serratia marcescens fusant	62697
+KY849846	1	2296	Eukaryota;Amorphea;Obazoa;Opisthokonta;Holozoa;Choanozoa;Metazoa;Animalia;BCP clade;Bilateria;Protostomia;Ecdysozoa;Arthropoda;Crustacea;Branchiopoda;Phyllopoda;Diplostraca;	Daphnia tibetana	47116
+KY852452	1	1739	Eukaryota;SAR;Alveolata;Ciliophora;Intramacronucleata;Conthreep;Oligohymenophorea;Peniculia;Paramecium;	Paramecium tetraurelia	8927
+KY852453	1	1693	Eukaryota;SAR;Alveolata;Ciliophora;Intramacronucleata;Conthreep;Colpodea;Cyrtolophosidida;Cyrtolophosis;	Cyrtolophosis mucicola	8883
+KY852461	1	1855	Eukaryota;Amorphea;Obazoa;Opisthokonta;Holozoa;Choanozoa;Metazoa;Animalia;BCP clade;Bilateria;Protostomia;Lophotrochozoa;Platyhelminthes;Trematoda;Digenea;Echinostomida;	Schikhobalotrema huffmani	47466
+KY857824	1	1808	Eukaryota;Amorphea;Amoebozoa;Centrohelida;Heterophryidae;Chlamydaster;	Chlamydaster sterni	50491
+KY857885	1	1609	Eukaryota;Amorphea;Obazoa;Opisthokonta;Holozoa;Choanozoa;Metazoa;Animalia;BCP clade;Bilateria;Protostomia;Ecdysozoa;Nematozoa;Nematoda;Chromadorea;Rhigonematida;	Heth xarochae	47227
+KY859764	1	1726	Eukaryota;Amorphea;Obazoa;Opisthokonta;Holozoa;Choanozoa;Metazoa;Animalia;BCP clade;Bilateria;Protostomia;Ecdysozoa;Arthropoda;Crustacea;Maxillopoda;Copepoda;Calanoida;	Acartia hudsonica	47132
+KY867436	1	1376	Eukaryota;SAR;Alveolata;Apicomplexa;Aconoidasida;Piroplasmorida;Babesia;	Babesia sp.	8778
+KY874005	1	1750	Eukaryota;SAR;Alveolata;Ciliophora;Intramacronucleata;Spirotrichea;Hypotrichia;	Eschaneustyla lugeri	9129
+KY881720	1	1666	Eukaryota;Amorphea;Obazoa;Opisthokonta;Holozoa;Choanozoa;Metazoa;Animalia;BCP clade;Bilateria;Protostomia;Ecdysozoa;Nematozoa;Nematoda;Enoplea;Dorylaimia;Dorylaimida;	Enchodeloides signyensis	47233
+KY886363	1	1791	Eukaryota;Amorphea;Obazoa;Opisthokonta;Holozoa;Choanozoa;Metazoa;Animalia;BCP clade;Bilateria;Protostomia;Lophotrochozoa;Rotifera;Monogononta;Ploimida;	Brachionus plicatilis	47477
+KY886364	1	1800	Eukaryota;Amorphea;Obazoa;Opisthokonta;Holozoa;Choanozoa;Metazoa;Animalia;BCP clade;Bilateria;Protostomia;Lophotrochozoa;Rotifera;Monogononta;Ploimida;	Brachionus calyciflorus	47477
+KY886366	1	1752	Eukaryota;SAR;Alveolata;Ciliophora;Intramacronucleata;Conthreep;Oligohymenophorea;Scuticociliatia;Cyclidium;	Cyclidium glaucoma	8957
+KY886367	1	1752	Eukaryota;SAR;Alveolata;Ciliophora;Intramacronucleata;Conthreep;Oligohymenophorea;Scuticociliatia;	Cyclidium marinum	8951
+KY887580	1	1749	Eukaryota;SAR;Alveolata;Ciliophora;Intramacronucleata;Conthreep;Oligohymenophorea;Peniculia;Frontonia;	Frontonia sp.	8925
+KY887581	1	1997	Eukaryota;Amorphea;Obazoa;Opisthokonta;Nucletmycea;Nucleariidae and Fonticula group;Nucleariidae;Nuclearia;	Nuclearia sp.	49885
+KY887583	1	1928	Eukaryota;Amorphea;Obazoa;Opisthokonta;Holozoa;Choanozoa;Metazoa;Animalia;BCP clade;Bilateria;Protostomia;Ecdysozoa;Arthropoda;Hexapoda;Insecta;Pterygota;Neoptera;Diptera;	Wuchereria bancrofti	47180
+KY905095	1	1653	Eukaryota;SAR;Rhizaria;Cercozoa;Thecofilosea;Cryomonadida;Rhizaspididae;Rhogostoma;	Rhogostoma epiphylla	9522
+KY907662	1	3256	Eukaryota;Amorphea;Obazoa;Opisthokonta;Holozoa;Choanozoa;Metazoa;Animalia;BCP clade;Bilateria;Protostomia;Ecdysozoa;Nematozoa;Nematoda;Chromadorea;Tylenchida;	Neotylenchidae gen. sp. 1 QY-2017	47229
+KY911197	1	1892	Eukaryota;Amorphea;Obazoa;Opisthokonta;Holozoa;Choanozoa;Metazoa;Animalia;BCP clade;Bilateria;Protostomia;Ecdysozoa;Arthropoda;Hexapoda;Insecta;Pterygota;Neoptera;Hemiptera;	Elasmostethus interstinctus	47183
+KY911198	1	1883	Eukaryota;Amorphea;Obazoa;Opisthokonta;Holozoa;Choanozoa;Metazoa;Animalia;BCP clade;Bilateria;Protostomia;Ecdysozoa;Arthropoda;Hexapoda;Insecta;Pterygota;Neoptera;Hemiptera;	Adomerus biguttatus	47183
+KY911199	1	1880	Eukaryota;Amorphea;Obazoa;Opisthokonta;Holozoa;Choanozoa;Metazoa;Animalia;BCP clade;Bilateria;Protostomia;Ecdysozoa;Arthropoda;Hexapoda;Insecta;Pterygota;Neoptera;Hemiptera;	Adrisa magna	47183
+KY911200	1	1893	Eukaryota;Amorphea;Obazoa;Opisthokonta;Holozoa;Choanozoa;Metazoa;Animalia;BCP clade;Bilateria;Protostomia;Ecdysozoa;Arthropoda;Hexapoda;Insecta;Pterygota;Neoptera;Hemiptera;	Canthophorus niveimarginatus	47183
+KY911202	1	1882	Eukaryota;Amorphea;Obazoa;Opisthokonta;Holozoa;Choanozoa;Metazoa;Animalia;BCP clade;Bilateria;Protostomia;Ecdysozoa;Arthropoda;Hexapoda;Insecta;Pterygota;Neoptera;Hemiptera;	Cydnus aterrimus	47183
+KY911206	1	1877	Eukaryota;Amorphea;Obazoa;Opisthokonta;Holozoa;Choanozoa;Metazoa;Animalia;BCP clade;Bilateria;Protostomia;Ecdysozoa;Arthropoda;Hexapoda;Insecta;Pterygota;Neoptera;Hemiptera;	Ochetostethomorpha secunda	47183
+KY911207	1	1867	Eukaryota;Amorphea;Obazoa;Opisthokonta;Holozoa;Choanozoa;Metazoa;Animalia;BCP clade;Bilateria;Protostomia;Ecdysozoa;Arthropoda;Hexapoda;Insecta;Pterygota;Neoptera;Hemiptera;	Pangaeus bilineatus	47183
+KY911208	1	1881	Eukaryota;Amorphea;Obazoa;Opisthokonta;Holozoa;Choanozoa;Metazoa;Animalia;BCP clade;Bilateria;Protostomia;Ecdysozoa;Arthropoda;Hexapoda;Insecta;Pterygota;Neoptera;Hemiptera;	Rhytidoporus indentatus	47183
+KY911209	1	1894	Eukaryota;Amorphea;Obazoa;Opisthokonta;Holozoa;Choanozoa;Metazoa;Animalia;BCP clade;Bilateria;Protostomia;Ecdysozoa;Arthropoda;Hexapoda;Insecta;Pterygota;Neoptera;Hemiptera;	Sehirus luctuosus	47183
+KY911210	1	1898	Eukaryota;Amorphea;Obazoa;Opisthokonta;Holozoa;Choanozoa;Metazoa;Animalia;BCP clade;Bilateria;Protostomia;Ecdysozoa;Arthropoda;Hexapoda;Insecta;Pterygota;Neoptera;Hemiptera;	Tritomegas sexmaculatus	47183
+KY911212	1	1926	Eukaryota;Amorphea;Obazoa;Opisthokonta;Holozoa;Choanozoa;Metazoa;Animalia;BCP clade;Bilateria;Protostomia;Ecdysozoa;Arthropoda;Hexapoda;Insecta;Pterygota;Neoptera;Hemiptera;	Coptosoma scutellatum	47183
+KY911213	1	1877	Eukaryota;Amorphea;Obazoa;Opisthokonta;Holozoa;Choanozoa;Metazoa;Animalia;BCP clade;Bilateria;Protostomia;Ecdysozoa;Arthropoda;Hexapoda;Insecta;Pterygota;Neoptera;Hemiptera;	Galgupha australis	47183
+KY911214	1	1867	Eukaryota;Amorphea;Obazoa;Opisthokonta;Holozoa;Choanozoa;Metazoa;Animalia;BCP clade;Bilateria;Protostomia;Ecdysozoa;Arthropoda;Hexapoda;Insecta;Pterygota;Neoptera;Hemiptera;	Thyreocoris scarabaeoides	47183
+KY912033	1	1759	Eukaryota;SAR;Alveolata;Ciliophora;Intramacronucleata;Spirotrichea;Hypotrichia;Hemiurosomoida;	Hemiurosomoida longa	14895
+KY921848	1	1809	Eukaryota;SAR;Alveolata;Ciliophora;Intramacronucleata;Spirotrichea;Euplotia;Euplotes;	Euplotes aediculatus	9124
+KY922101	1	1719	Eukaryota;Amorphea;Obazoa;Opisthokonta;Holozoa;Choanozoa;Metazoa;Animalia;BCP clade;Bilateria;Protostomia;Ecdysozoa;Arthropoda;Chelicerata;Arachnida;Acari;	Asca sp. AD1302	47099
+KY922106	1	1953	Eukaryota;Amorphea;Obazoa;Opisthokonta;Holozoa;Choanozoa;Metazoa;Animalia;BCP clade;Bilateria;Protostomia;Ecdysozoa;Arthropoda;Chelicerata;Arachnida;Acari;	Nanorchestes sp. AD1089	47099
+KY922107	1	1918	Eukaryota;Amorphea;Obazoa;Opisthokonta;Holozoa;Choanozoa;Metazoa;Animalia;BCP clade;Bilateria;Protostomia;Ecdysozoa;Arthropoda;Chelicerata;Arachnida;Acari;	Nanorchestes sp. AD1447	47099
+KY922108	1	1904	Eukaryota;Amorphea;Obazoa;Opisthokonta;Holozoa;Choanozoa;Metazoa;Animalia;BCP clade;Bilateria;Protostomia;Ecdysozoa;Arthropoda;Chelicerata;Arachnida;Acari;	Nanorchestes sp. AD1283	47099
+KY922113	1	1793	Eukaryota;Amorphea;Obazoa;Opisthokonta;Holozoa;Choanozoa;Metazoa;Animalia;BCP clade;Bilateria;Protostomia;Ecdysozoa;Arthropoda;Chelicerata;Arachnida;Acari;	Bimichaelia sp. AD1331	47099
+KY922114	1	1769	Eukaryota;Amorphea;Obazoa;Opisthokonta;Holozoa;Choanozoa;Metazoa;Animalia;BCP clade;Bilateria;Protostomia;Ecdysozoa;Arthropoda;Chelicerata;Arachnida;Acari;	Laminamichaelia sp. AD1446	47099
+KY922117	1	1811	Eukaryota;Amorphea;Obazoa;Opisthokonta;Holozoa;Choanozoa;Metazoa;Animalia;BCP clade;Bilateria;Protostomia;Ecdysozoa;Arthropoda;Chelicerata;Arachnida;Acari;	Alycus sp. 1 PBK-2017	47099
+KY922129	1	1746	Eukaryota;Amorphea;Obazoa;Opisthokonta;Holozoa;Choanozoa;Metazoa;Animalia;BCP clade;Bilateria;Protostomia;Ecdysozoa;Arthropoda;Chelicerata;Arachnida;Acari;	Psammolycus sp. AD1454	47099
+KY922130	1	1843	Eukaryota;Amorphea;Obazoa;Opisthokonta;Holozoa;Choanozoa;Metazoa;Animalia;BCP clade;Bilateria;Protostomia;Ecdysozoa;Arthropoda;Chelicerata;Arachnida;Acari;	Osperalycus tenerphagus	47099
+KY922133	1	1750	Eukaryota;Amorphea;Obazoa;Opisthokonta;Holozoa;Choanozoa;Metazoa;Animalia;BCP clade;Bilateria;Protostomia;Ecdysozoa;Arthropoda;Chelicerata;Arachnida;Acari;	Micropsammus sp. 3 PBK-2017	47099
+KY922134	1	1933	Eukaryota;Amorphea;Obazoa;Opisthokonta;Holozoa;Choanozoa;Metazoa;Animalia;BCP clade;Bilateria;Protostomia;Ecdysozoa;Arthropoda;Chelicerata;Arachnida;Acari;	Micropsammus sp. 2 PBK-2017	47099
+KY922136	1	1755	Eukaryota;Amorphea;Obazoa;Opisthokonta;Holozoa;Choanozoa;Metazoa;Animalia;BCP clade;Bilateria;Protostomia;Ecdysozoa;Arthropoda;Chelicerata;Arachnida;Acari;	Proteonematalycus wagneri	47099
+KY922138	1	1754	Eukaryota;Amorphea;Obazoa;Opisthokonta;Holozoa;Choanozoa;Metazoa;Animalia;BCP clade;Bilateria;Protostomia;Ecdysozoa;Arthropoda;Chelicerata;Arachnida;Acari;	Stigmalychus sp. 3 PBK-2017	47099
+KY922139	1	1773	Eukaryota;Amorphea;Obazoa;Opisthokonta;Holozoa;Choanozoa;Metazoa;Animalia;BCP clade;Bilateria;Protostomia;Ecdysozoa;Arthropoda;Chelicerata;Arachnida;Acari;	Alycosmesis sp. AD1383	47099
+KY922141	1	1868	Eukaryota;Amorphea;Obazoa;Opisthokonta;Holozoa;Choanozoa;Metazoa;Animalia;BCP clade;Bilateria;Protostomia;Ecdysozoa;Arthropoda;Chelicerata;Arachnida;Acari;	Oehserchestidae sp. 'filiform trichobothria'	47099
+KY922144	1	1774	Eukaryota;Amorphea;Obazoa;Opisthokonta;Holozoa;Choanozoa;Metazoa;Animalia;BCP clade;Bilateria;Protostomia;Ecdysozoa;Arthropoda;Chelicerata;Arachnida;Acari;	Grandjeanicus sp. AD1438	47099
+KY922146	1	1750	Eukaryota;Amorphea;Obazoa;Opisthokonta;Holozoa;Choanozoa;Metazoa;Animalia;BCP clade;Bilateria;Protostomia;Ecdysozoa;Arthropoda;Chelicerata;Arachnida;Acari;	Labidostommatidae gen. sp. AD1887	47099
+KY922149	1	2048	Eukaryota;Amorphea;Obazoa;Opisthokonta;Holozoa;Choanozoa;Metazoa;Animalia;BCP clade;Bilateria;Protostomia;Ecdysozoa;Arthropoda;Chelicerata;Arachnida;Acari;	Tydeidae gen. sp. AD864	47099
+KY922151	1	1766	Eukaryota;Amorphea;Obazoa;Opisthokonta;Holozoa;Choanozoa;Metazoa;Animalia;BCP clade;Bilateria;Protostomia;Ecdysozoa;Arthropoda;Chelicerata;Arachnida;Acari;	Rhagidiidae gen. sp. AD1060	47099
+KY922152	1	1790	Eukaryota;Amorphea;Obazoa;Opisthokonta;Holozoa;Choanozoa;Metazoa;Animalia;BCP clade;Bilateria;Protostomia;Ecdysozoa;Arthropoda;Chelicerata;Arachnida;Acari;	Ereynetidae gen. sp. AD1086	47099
+KY922154	1	1766	Eukaryota;Amorphea;Obazoa;Opisthokonta;Holozoa;Choanozoa;Metazoa;Animalia;BCP clade;Bilateria;Protostomia;Ecdysozoa;Arthropoda;Chelicerata;Arachnida;Acari;	Bdella longicornis	47099
+KY922157	1	1745	Eukaryota;Amorphea;Obazoa;Opisthokonta;Holozoa;Choanozoa;Metazoa;Animalia;BCP clade;Bilateria;Protostomia;Ecdysozoa;Arthropoda;Chelicerata;Arachnida;Acari;	Acomatacarus arizonensis	47099
+KY922162	1	1857	Eukaryota;Amorphea;Obazoa;Opisthokonta;Holozoa;Choanozoa;Metazoa;Animalia;BCP clade;Bilateria;Protostomia;Ecdysozoa;Arthropoda;Chelicerata;Arachnida;Acari;	Pyemotes herfsi	47099
+KY922163	1	1883	Eukaryota;Amorphea;Obazoa;Opisthokonta;Holozoa;Choanozoa;Metazoa;Animalia;BCP clade;Bilateria;Protostomia;Ecdysozoa;Arthropoda;Chelicerata;Arachnida;Acari;	Tarsonemidae gen. sp. AD1063	47099
+KY922164	1	1876	Eukaryota;Amorphea;Obazoa;Opisthokonta;Holozoa;Choanozoa;Metazoa;Animalia;BCP clade;Bilateria;Protostomia;Ecdysozoa;Arthropoda;Chelicerata;Arachnida;Acari;	Chrysomelobia labidomerae	47099
+KY922166	1	1785	Eukaryota;Amorphea;Obazoa;Opisthokonta;Holozoa;Choanozoa;Metazoa;Animalia;BCP clade;Bilateria;Protostomia;Ecdysozoa;Arthropoda;Chelicerata;Arachnida;Acari;	Caraboacarus stammeri	47099
+KY922168	1	1855	Eukaryota;Amorphea;Obazoa;Opisthokonta;Holozoa;Choanozoa;Metazoa;Animalia;BCP clade;Bilateria;Protostomia;Ecdysozoa;Arthropoda;Chelicerata;Arachnida;Acari;	Elattoma abeskoun	47099
+KY922174	1	1857	Eukaryota;Amorphea;Obazoa;Opisthokonta;Holozoa;Choanozoa;Metazoa;Animalia;BCP clade;Bilateria;Protostomia;Ecdysozoa;Arthropoda;Chelicerata;Arachnida;Acari;	Pediculaster sp. AD1905	47099
+KY922176	1	1765	Eukaryota;Amorphea;Obazoa;Opisthokonta;Holozoa;Choanozoa;Metazoa;Animalia;BCP clade;Bilateria;Protostomia;Ecdysozoa;Arthropoda;Chelicerata;Arachnida;Acari;	Homocaligus sp. AD1913	47099
+KY922177	1	1764	Eukaryota;Amorphea;Obazoa;Opisthokonta;Holozoa;Choanozoa;Metazoa;Animalia;BCP clade;Bilateria;Protostomia;Ecdysozoa;Arthropoda;Chelicerata;Arachnida;Acari;	Caenolestomyobia faini	47099
+KY922179	1	1769	Eukaryota;Amorphea;Obazoa;Opisthokonta;Holozoa;Choanozoa;Metazoa;Animalia;BCP clade;Bilateria;Protostomia;Ecdysozoa;Arthropoda;Chelicerata;Arachnida;Acari;	Crocidurobia sp. AD342	47099
+KY922180	1	1797	Eukaryota;Amorphea;Obazoa;Opisthokonta;Holozoa;Choanozoa;Metazoa;Animalia;BCP clade;Bilateria;Protostomia;Ecdysozoa;Arthropoda;Chelicerata;Arachnida;Acari;	Radfordia lemnina	47099
+KY922181	1	2413	Eukaryota;Amorphea;Obazoa;Opisthokonta;Holozoa;Choanozoa;Metazoa;Animalia;BCP clade;Bilateria;Protostomia;Ecdysozoa;Arthropoda;Chelicerata;Arachnida;Acari;	Harpyrhynchoides zumpti	47099
+KY922182	1	1883	Eukaryota;Amorphea;Obazoa;Opisthokonta;Holozoa;Choanozoa;Metazoa;Animalia;BCP clade;Bilateria;Protostomia;Ecdysozoa;Arthropoda;Chelicerata;Arachnida;Acari;	Harpyrhynchoides charadrius	47099
+KY922184	1	1856	Eukaryota;Amorphea;Obazoa;Opisthokonta;Holozoa;Choanozoa;Metazoa;Animalia;BCP clade;Bilateria;Protostomia;Ecdysozoa;Arthropoda;Chelicerata;Arachnida;Acari;	Harpypalpoides lesickii	47099
+KY922185	1	1964	Eukaryota;Amorphea;Obazoa;Opisthokonta;Holozoa;Choanozoa;Metazoa;Animalia;BCP clade;Bilateria;Protostomia;Ecdysozoa;Arthropoda;Chelicerata;Arachnida;Acari;	Harpypalpus holopus	47099
+KY922186	1	1750	Eukaryota;Amorphea;Obazoa;Opisthokonta;Holozoa;Choanozoa;Metazoa;Animalia;BCP clade;Bilateria;Protostomia;Ecdysozoa;Arthropoda;Chelicerata;Arachnida;Acari;	Psorergates sp. AD352	47099
+KY922188	1	1742	Eukaryota;Amorphea;Obazoa;Opisthokonta;Holozoa;Choanozoa;Metazoa;Animalia;BCP clade;Bilateria;Protostomia;Ecdysozoa;Arthropoda;Chelicerata;Arachnida;Acari;	Barbutia sp. AD1914	47099
+KY922189	1	1376	Eukaryota;Amorphea;Obazoa;Opisthokonta;Holozoa;Choanozoa;Metazoa;Animalia;BCP clade;Bilateria;Protostomia;Ecdysozoa;Arthropoda;Chelicerata;Arachnida;Acari;	Prostigmata sp. 1 PBK-2017	47099
+KY922190	1	1892	Eukaryota;Amorphea;Obazoa;Opisthokonta;Holozoa;Choanozoa;Metazoa;Animalia;BCP clade;Bilateria;Protostomia;Ecdysozoa;Arthropoda;Chelicerata;Arachnida;Acari;	Cyclurobia sp. AD1246	47099
+KY922191	1	1758	Eukaryota;Amorphea;Obazoa;Opisthokonta;Holozoa;Choanozoa;Metazoa;Animalia;BCP clade;Bilateria;Protostomia;Ecdysozoa;Arthropoda;Chelicerata;Arachnida;Acari;	Caligonellidae gen. sp. AD1306	47099
+KY922194	1	2164	Eukaryota;Amorphea;Obazoa;Opisthokonta;Holozoa;Choanozoa;Metazoa;Animalia;BCP clade;Bilateria;Protostomia;Ecdysozoa;Arthropoda;Chelicerata;Arachnida;Acari;	Linotetranidae gen. sp. AD1371	47099
+KY922199	1	2181	Eukaryota;Amorphea;Obazoa;Opisthokonta;Holozoa;Choanozoa;Metazoa;Animalia;BCP clade;Bilateria;Protostomia;Ecdysozoa;Arthropoda;Chelicerata;Arachnida;Acari;	Brevipalpus sp. AD1016	47099
+KY922200	1	1773	Eukaryota;Amorphea;Obazoa;Opisthokonta;Holozoa;Choanozoa;Metazoa;Animalia;BCP clade;Bilateria;Protostomia;Ecdysozoa;Arthropoda;Chelicerata;Arachnida;Acari;	Neophyllobius sp. AD1931	47099
+KY922201	1	1750	Eukaryota;Amorphea;Obazoa;Opisthokonta;Holozoa;Choanozoa;Metazoa;Animalia;BCP clade;Bilateria;Protostomia;Ecdysozoa;Arthropoda;Chelicerata;Arachnida;Acari;	Bakericheyla chanayi	47099
+KY922202	1	1744	Eukaryota;Amorphea;Obazoa;Opisthokonta;Holozoa;Choanozoa;Metazoa;Animalia;BCP clade;Bilateria;Protostomia;Ecdysozoa;Arthropoda;Chelicerata;Arachnida;Acari;	Chelacheles sp. AD1216	47099
+KY922203	1	1760	Eukaryota;Amorphea;Obazoa;Opisthokonta;Holozoa;Choanozoa;Metazoa;Animalia;BCP clade;Bilateria;Protostomia;Ecdysozoa;Arthropoda;Chelicerata;Arachnida;Acari;	Cheyletidae gen. sp. AD1058	47099
+KY922208	1	1809	Eukaryota;Amorphea;Obazoa;Opisthokonta;Holozoa;Choanozoa;Metazoa;Animalia;BCP clade;Bilateria;Protostomia;Ecdysozoa;Arthropoda;Chelicerata;Arachnida;Acari;	Torpacarus sp. AD1220	47099
+KY922211	1	2107	Eukaryota;Amorphea;Obazoa;Opisthokonta;Holozoa;Choanozoa;Metazoa;Animalia;BCP clade;Bilateria;Protostomia;Ecdysozoa;Arthropoda;Chelicerata;Arachnida;Acari;	Cosmochthonius sp. AD1209	47099
+KY922821	1	1885	Eukaryota;SAR;Alveolata;Ciliophora;Intramacronucleata;Spirotrichea;Euplotia;Euplotes;	Euplotes vannus	9124
+KY922824	1	1761	Eukaryota;SAR;Alveolata;Ciliophora;Intramacronucleata;Spirotrichea;Hypotrichia;Incertae Sedis;	Schmidingerothrix sp.	63746
+KY922826	1	1774	Eukaryota;SAR;Alveolata;Ciliophora;Intramacronucleata;Spirotrichea;Hypotrichia;Urosoma;	Urosoma sp.	14910
+KY945917	1	2094	Eukaryota;Amorphea;Obazoa;Opisthokonta;Holozoa;Choanozoa;Metazoa;Animalia;BCP clade;Bilateria;Protostomia;Lophotrochozoa;Platyhelminthes;Cestoda;Eucestoda;	Diphyllobothrium sp. 1 JH-2018	47403
+KY945919	1	1872	Eukaryota;Amorphea;Obazoa;Opisthokonta;Holozoa;Choanozoa;Metazoa;Animalia;BCP clade;Bilateria;Protostomia;Lophotrochozoa;Platyhelminthes;Trematoda;Digenea;Echinostomida;	Pegosomum asperum	47466
+KY947151	1	2064	Eukaryota;Discoba;Discicristata;Euglenozoa;Diplonemea;SCM38C39 marine group;	Diplonemida sp. 13 RG-2016	49910
+KY947152	1	2068	Eukaryota;Discoba;Discicristata;Euglenozoa;Diplonemea;SCM38C39 marine group;	Diplonemida sp. 21 RG-2016	49910
+KY947153	1	2074	Eukaryota;Discoba;Discicristata;Euglenozoa;Diplonemea;SCM38C39 marine group;	Diplonemida sp. 27 RG-2016	49910
+KY947154	1	2066	Eukaryota;Discoba;Discicristata;Euglenozoa;Diplonemea;SCM38C39 marine group;	Diplonemida sp. 37 RG-2016	49910
+KY951740	1	2024	Eukaryota;Amorphea;Obazoa;Opisthokonta;Holozoa;Choanozoa;Metazoa;Animalia;BCP clade;Bilateria;Protostomia;Ecdysozoa;Arthropoda;Crustacea;Malacostraca;Eumalacostraca;Peracarida;	Thaumastosoma platycarpus	47124
+KY953226	1	1724	Eukaryota;SAR;Alveolata;Apicomplexa;Aconoidasida;Piroplasmorida;Theileria;	Theileria ornithorhynchi	8782
+KY953263	1	1621	Eukaryota;SAR;Alveolata;Apicomplexa;Aconoidasida;Piroplasmorida;Theileria;	Theileria tachyglossi	8782
+KY953264	1	1621	Eukaryota;SAR;Alveolata;Apicomplexa;Aconoidasida;Piroplasmorida;Theileria;	Theileria tachyglossi	8782
+KY964616	1	1665	Eukaryota;Amorphea;Obazoa;Opisthokonta;Holozoa;Choanozoa;Metazoa;Animalia;BCP clade;Bilateria;Protostomia;Ecdysozoa;Nematozoa;Nematoda;Chromadorea;Tylenchida;Aphelenchoides;	Aphelenchoides sp. E2122	50554
+KY973346	1	1920	Eukaryota;SAR;Alveolata;Apicomplexa;Conoidasida;Coccidia;Eimeriorina;Sarcocystis;	Sarcocystis cervicanis	8803
+KY973362	1	1884	Eukaryota;SAR;Alveolata;Apicomplexa;Conoidasida;Coccidia;Eimeriorina;Sarcocystis;	Sarcocystis linearis	8803
+KY973375	1	1858	Eukaryota;SAR;Alveolata;Apicomplexa;Conoidasida;Coccidia;Eimeriorina;Sarcocystis;	Sarcocystis morae	8803
+LF644976	16	1783	Eukaryota;Archaeplastida;Chloroplastida;Chlorophyta;Chlorophyceae;Chlamydomonadales;Chlamydomonas;	Chlamydomonas orbicularis	12507
+X84331	1	1435	Archaea;Halobacteriota;Halobacteria;Halobacterales;Haloferacaceae;Haloquadratum;	unidentified	57461
