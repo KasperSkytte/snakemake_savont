@@ -24,7 +24,7 @@ Furthermore, additional options can be passed on directly to the individual comm
 ## Usage
 First install snakemake and the required software into a conda environment (preferably using the [environment.yml](environment.yml) file) or use the container as described below. Then deploy the workflow using [snakedeploy](https://snakemake.github.io/snakemake-workflow-catalog/docs/workflows/KasperSkytte/snakemake_savont.html), adjust the [config file](config/README.md), then run, fx:
 ```
-release="v1.0.2"
+release="v1.0.1"
 mamba env create --file https://raw.githubusercontent.com/KasperSkytte/snakemake_savont/refs/tags/${release}/environment.yml
 mamba activate snakemake_savont
 snakedeploy deploy-workflow https://github.com/KasperSkytte/snakemake_savont . --tag ${release}
