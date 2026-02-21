@@ -1,7 +1,7 @@
 # Snakemake workflow: `snakemake_savont`
 
 [![Snakemake](https://img.shields.io/badge/snakemake-≥7.18.2-brightgreen.svg)](https://snakemake.github.io)
-[![GitHub actions status](https://github.com/kasperskytte/snakemake_savont/workflows/Tests/badge.svg?branch=main)](https://github.com/kasperskytte/snakemake_savont/actions?query=branch%3Amain+workflow%3ATests)
+[![Tests](https://github.com/KasperSkytte/snakemake_savont/actions/workflows/main.yml/badge.svg)](https://github.com/KasperSkytte/snakemake_savont/actions/workflows/main.yml)
 
 Simple snakemake workflow for processing amplicon data sequenced on ONT or PacBio platforms, using [savont](https://github.com/bluenote-1577/savont) to generate ASVs and [usearch](https://drive5.com/usearch) for generating an abundance table and taxonomic classification.
 
