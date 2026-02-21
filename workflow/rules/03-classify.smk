@@ -60,7 +60,6 @@ rule savont_classify:
         classify_savont_db=config["classify_savont_db"],
         classify_savont_db_download_dir=config["classify_savont_db_download_dir"],
         classify_savont_args=config["classify_savont_args"],
-        savont_outdir=os.path.join(config["output_dir"], "savont_output"),
     shell:
         """
         exec &> "{log}"
@@ -80,8 +79,8 @@ rule savont_classify:
         fi
 
         savont classify \
-          --input-dir "{params.savont_outdir}" \
-          --output-dir "{params.savont_outdir}" \
+          --input-dir "$(dirname {input})" \
+          --output-dir "$(dirname {input})" \
           --{params.classify_savont_db}-db "$db_dir" \
           --threads {threads} \
           {params.classify_savont_args}

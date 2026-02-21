@@ -12,4 +12,8 @@ set -euo pipefail
 
 conda activate snakemake_savont
 
-snakemake --executor slurm --jobs 96 --default-resources slurm_account=projectxyz
+# the default resources set for each rule may not be appropriate for your particular data,
+# you can always overwrite resource requirements for the individual rules by appending fx:
+# "--default-resources slurm_account=phn --set-resources savont_asv:mem_mb=512000"
+# to the snakemake command below
+snakemake --executor slurm --jobs 96

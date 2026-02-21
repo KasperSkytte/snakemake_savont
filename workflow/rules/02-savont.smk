@@ -106,7 +106,6 @@ rule savont_asv:
         "../envs/snakemake_savont.yml"
     params:
         savont_asv_args=config["savont_asv_args"],
-        savont_outdir=os.path.join(config["output_dir"], "savont_output"),
     threads: config["max_threads"]
     shell:
         """
@@ -114,7 +113,7 @@ rule savont_asv:
         set -euxo pipefail
 
         savont asv \
-            --output-dir "{params.savont_outdir}" \
+            --output-dir "$(dirname {output.asvs})" \
             --threads "{threads}" \
             {params.savont_asv_args} \
             {input}
