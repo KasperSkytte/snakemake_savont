@@ -3,6 +3,7 @@
 #SBATCH --output=job_%j_%x.out
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=1G
+#SBATCH --time=0-08:00:00
 #SBATCH --mail-type=END,FAIL,TIME_LIMIT_80
 #SBATCH --mail-user=abc@email.com
 

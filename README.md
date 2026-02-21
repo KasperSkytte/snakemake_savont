@@ -15,7 +15,7 @@ Simple snakemake workflow for processing amplicon data sequenced on ONT or PacBi
 | | `savont` | Generate ASVs using `savont asv`. |
 | `03-classify.smk` | `sintax_classify` | (optional) Predict taxonomy of the ASVs using `usearch -sintax`. |
 | | `savont_classify` | (optional) Predict taxonomy of the ASVs using `savont classify`. Database files will be downloaded automatically. |
-| `04-abund_table.smk` | `abund_table` | For each sample, estimate ASV abundances in each sample by mapping the raw, unfiltered reads against the ASVs using `usearch -otutab`. This is MUCH faster to do in parallel and merge afterwards compared to running a single `usearch -otutab` command, which doesn't scale linearly with more threads. |
+| `04-abund_table.smk` | `abund_table` | For each sample, estimate ASV abundances in each sample by mapping the raw, unfiltered reads against the ASVs using `usearch -otutab`. This is MUCH faster to do in parallel and merge afterwards compared to running a single `usearch -otutab` command, because it doesn't scale linearly with more threads. |
 | | `merge_abund_tables` | Merge all abundance tables into a single table using `usearch -otutab_merge`. |
 | | `rarefy_abund_table` | (optional) Rarefy abundance table using `usearch -otutab_rare`. |
 
@@ -24,8 +24,11 @@ Furthermore, additional options can be passed on directly to the individual comm
 ## Usage
 First install snakemake and the required software into a conda environment (preferably using the [environment.yml](environment.yml) file) or use the container as described below. Then deploy the workflow using [snakedeploy](https://snakemake.github.io/snakemake-workflow-catalog/docs/workflows/KasperSkytte/snakemake_savont.html), adjust the [config file](config/README.md), then run, fx:
 ```
-conda activate snakemake_savont
-snakedeploy deploy-workflow https://github.com/KasperSkytte/snakemake_savont . --tag v1.2.1
+release="v1.0.0"
+mamba env create --file https://raw.githubusercontent.com/KasperSkytte/snakemake_savont/refs/tags/${release}/environment.yml
+mamba activate snakemake_savont
+snakedeploy deploy-workflow https://github.com/KasperSkytte/snakemake_savont . --tag ${release}
+# now adjust the config file, then run the workflow with fx:
 snakemake --cores 96
 ```
 

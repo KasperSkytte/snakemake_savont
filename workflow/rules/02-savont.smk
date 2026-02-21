@@ -16,7 +16,7 @@ rule concat_all:
     message:
         "Concatenating all samples before generating ASVs"
     resources:
-        mem_mb=1024,
+        mem_mb=2048,
         runtime=30,
         cpus_per_task=1,
     container:
@@ -99,7 +99,7 @@ rule savont_asv:
     resources:
         mem_mb=300000,  #lambda wc, input: max(3 * input.size_mb, 512),
         runtime=600,
-        cpus_per_task=10,
+        cpus_per_task=config["max_threads"],
     container:
         "docker://ghcr.io/kasperskytte/snakemake_savont:main"
     conda:
@@ -107,7 +107,7 @@ rule savont_asv:
     params:
         savont_asv_args=config["savont_asv_args"],
         savont_outdir=os.path.join(config["output_dir"], "savont_output"),
-    threads: 10
+    threads: config["max_threads"]
     shell:
         """
         exec &> "{log}"

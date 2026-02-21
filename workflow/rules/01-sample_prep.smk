@@ -53,8 +53,8 @@ rule sample_prep:
     log:
         os.path.join(config["log_dir"], "01-sample_prep", "sample_prep_{sample}.log"),
     resources:
-        mem_mb=lambda wc, input: max(5 * input.size_mb, 2048),
-        runtime=30,
+        mem_mb=lambda wc, input: max(10 * input.size_mb, 2048),
+        runtime=10,
         cpus_per_task=1,
     container:
         "docker://ghcr.io/kasperskytte/snakemake_savont:main"
@@ -108,7 +108,7 @@ rule concatenate_total_reads_files:
         "Concatenating total reads files"
     resources:
         mem_mb=512,
-        runtime=30,
+        runtime=10,
         cpus_per_task=1,
     container:
         "docker://ghcr.io/kasperskytte/snakemake_savont:main"
