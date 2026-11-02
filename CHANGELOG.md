@@ -1,5 +1,16 @@
 # Changelog
 
+## [2.0.0](https://github.com/KasperSkytte/snakemake_savont/compare/v1.0.1...v2.0.0) (2026-11-02)
+
+
+### ⚠ BREAKING CHANGES
+
+* config keys, rules and output filenames have changed
+
+### Features
+
+* support savont 0.8.0, optional pooling and classifiers ([79c9f42](https://github.com/KasperSkytte/snakemake_savont/commit/79c9f4212d7aaa7ad0d1cd331ac6ce389d1a355e))
+
 ## [1.0.1](https://github.com/KasperSkytte/snakemake_savont/compare/v1.0.0...v1.0.1) (2026-02-21)
 
 
