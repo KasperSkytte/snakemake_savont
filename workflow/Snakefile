@@ -2,36 +2,32 @@
 # Please follow the best practices:
 # https://snakemake.readthedocs.io/en/stable/snakefiles/best_practices.html,
 # in particular regarding the standardized folder structure mentioned there.
-import os
-import glob
 from snakemake.utils import min_version
 
-min_version("9.1.6")
+min_version("9.0.0")
 
 
 configfile: "config/config.yaml"
 
 
-# list all subfolders in input_dir
-sample_dirs = [
-    sample
-    for sample in os.listdir(config["input_dir"])
-    if os.path.isdir(os.path.join(config["input_dir"], sample))
-    and "unclassified" not in sample.lower()
-]
-
-include: "rules/01-sample_prep.smk"
-include: "rules/02-savont.smk"
+include: "rules/common.smk"
+include: "rules/01-trim.smk"
+include: "rules/02-asv.smk"
 include: "rules/03-classify.smk"
-include: "rules/04-abund_table.smk"
+include: "rules/04-export.smk"
+include: "rules/05-usearch.smk"
+
 
 rule all:
-    input:        
-        os.path.join(config["output_dir"], "totalreads.csv"),
-        os.path.join(config["output_dir"], "savont_output", "final_asvs.fasta"),
-        os.path.join(config["output_dir"], "final_asvs_clean.fasta"),
-        os.path.join(config["output_dir"], "final_asvs_clean.sintax") if config["classify_sintax"] else [],
-        os.path.join(config["output_dir"], "savont_output", "species_abundance.tsv") if config["classify_savont"] else [],
-        os.path.join(config["output_dir"], "savont_output", "genus_abundance.tsv") if config["classify_savont"] else [],
-        os.path.join(config["output_dir"], "abund_table.tsv"),
-        os.path.join(config["output_dir"], "abund_table_rarefied.tsv") if config["rarefy_abund_table"] else []
+    input:
+        os.path.join(config["output_dir"], "read_counts.tsv"),
+        result("asvs.fasta"),
+        result("abund_table_savont.tsv"),
+        result("taxonomy_savont.tsv") if config["classify_savont"] else [],
+        result("taxonomy_sintax.tsv") if config["classify_sintax"] else [],
+        (
+            result("taxonomy_savont_sintax.tsv")
+            if config["classify_savont_sintax"]
+            else []
+        ),
+        result("abund_table_usearch.tsv") if config["abund_usearch"] else [],

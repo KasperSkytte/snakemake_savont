@@ -1,0 +1,7 @@
+# Used automatically unless another --workflow-profile is given.
+# Choose how software is provided with --sdm conda or --sdm apptainer
+cores: all
+# memory and runtime requests are scaled up with each attempt
+retries: 2
+rerun-incomplete: true
+show-failed-logs: true

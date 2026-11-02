@@ -1,0 +1,6 @@
+name: savont
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - savont=0.8.0

@@ -1,25 +1,21 @@
 # This file is for various variables used throughout the workflow.
-# See a description of each setting in the README.md file.
+# See a description of each setting in the config/README.md file.
 input_dir: "nanopore_run_xyz123/fastq_pass"
 output_dir: "output"
 tmp_dir: "tmp"
 log_dir: "logs"
-classify_sintax: True
-db_sintax: "./databases/db_sintax.fa"
-# options passed on to the "usearch -sintax" command directly, except input, output, database, and threads
-classify_sintax_args: "-strand both -sintax_cutoff 0.8"
+threads: 2
+max_mem_mb: 8000
+pool_samples: False
+cutadapt_args: "-g AGAGTTTGATCMTGGCTCAG...CCAGCAGCCGCGGTAAT --revcomp --discard-untrimmed -e 0.15 -m 400 -M 600"
+min_reads: 100
+savont_asv_args: "--min-read-length 400 --max-read-length 600"
 classify_savont: True
-# "silva" or "emu", if non-existent, database will be downloaded automatically to classify_savont_db_download_dir
-classify_savont_db: "silva"
-classify_savont_db_download_dir: "./databases"
-# options passed on to the "savont classify" command directly, except input, output, database, and threads
+savont_db: "databases/silva-138.2"
 classify_savont_args: ""
-# Ensure this is a factor of the `--cores` value specified when running the workflow to avoid waste
-max_threads: 32
-sample_sep: "_"
-# options passed on to the "cutadapt" command directly, except input, output, and threads
-cutadapt_args: ""
-# options passed on to the "savont asv" command directly, except input, output, and threads
-savont_asv_args: "--minimum-base-quality 10 --quality-value-cutoff 95 --min-read-length 200 --max-read-length 700"
-rarefy_abund_table: False
-rarefy_sample_size: 2000
+classify_sintax: True
+sintax_db: "databases/db_sintax.fa"
+classify_sintax_args: "-strand both -sintax_cutoff 0.8"
+classify_savont_sintax: True
+classify_savont_sintax_args: ""
+abund_usearch: True

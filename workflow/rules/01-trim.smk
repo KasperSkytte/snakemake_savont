@@ -1,0 +1,66 @@
+# reads are streamed through cutadapt, so no uncompressed copies are made
+rule trim:
+    input:
+        sample_fastqs,
+    output:
+        reads=temp(os.path.join(config["tmp_dir"], "01-trim", "{sample}.fastq.gz")),
+        counts=temp(os.path.join(config["tmp_dir"], "01-trim", "{sample}.tsv")),
+    log:
+        log=os.path.join(config["log_dir"], "01-trim", "{sample}.log"),
+        json=os.path.join(config["log_dir"], "01-trim", "{sample}.cutadapt.json"),
+    conda:
+        "../envs/cutadapt.yml"
+    container:
+        cutadapt_container
+    threads: min(config["threads"], 4)
+    resources:
+        mem_mb=scaled(1024, 0),
+        runtime=scaled(30, 0.05),
+    params:
+        cutadapt_args=config["cutadapt_args"],
+    message:
+        "{wildcards.sample}: Trimming primers and orienting reads using cutadapt"
+    shell:
+        """
+        exec &>"{log.log}"
+        set -euxo pipefail
+
+        zcat -f {input} \
+            | cutadapt {params.cutadapt_args} -j {threads} -Z --json "{log.json}" -o "{output.reads}" -
+
+        # sample, number of reads before and after trimming
+        python3 -c 'import json, sys; c = json.load(open(sys.argv[1]))["read_counts"]; print(sys.argv[2], c["input"], c["output"], sep="\\t")' \
+            "{log.json}" "{wildcards.sample}" >"{output.counts}"
+        """
+
+
+rule read_counts:
+    input:
+        expand(
+            os.path.join(config["tmp_dir"], "01-trim", "{sample}.tsv"),
+            sample=samples,
+        ),
+    output:
+        os.path.join(config["output_dir"], "read_counts.tsv"),
+    log:
+        os.path.join(config["log_dir"], "01-trim", "read_counts.log"),
+    conda:
+        "../envs/cutadapt.yml"
+    container:
+        cutadapt_container
+    threads: 1
+    resources:
+        mem_mb=scaled(512, 0),
+        runtime=scaled(10, 0),
+    message:
+        "Gathering read counts"
+    shell:
+        """
+        exec &>"{log}"
+        set -euxo pipefail
+
+        (
+            printf "sample\\treads\\treads_trimmed\\n"
+            cat {input}
+        ) >"{output}"
+        """

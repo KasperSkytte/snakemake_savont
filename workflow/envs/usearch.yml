@@ -1,9 +1,7 @@
-name: snakemake_savont
+name: usearch
 channels:
   - conda-forge
   - bioconda
 dependencies:
-  - gzip=1.14
-  - cutadapt=5.2
   - usearch=11.0.667
-  - savont=0.3.2
+  - gzip

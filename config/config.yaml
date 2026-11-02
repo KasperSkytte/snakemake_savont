@@ -4,17 +4,25 @@ input_dir: ".test/nanopore_run_xyz123/fastq_pass"
 output_dir: "output"
 tmp_dir: "tmp"
 log_dir: "logs"
-savont_asv_args: "--minimum-base-quality 25 --quality-value-cutoff 98 --min-read-length 400 --max-read-length 700"
-classify_sintax: True
-db_sintax: ".test/db_sintax.fa"
-classify_sintax_args: "-strand both -sintax_cutoff 0.8"
+threads: 16
+max_mem_mb: 250000
+# True: generate ASVs from all samples pooled (savont asv --pooled-samples)
+# False: generate ASVs for each sample individually and merge them with savont export
+pool_samples: False
+# 27F/534R (V1-V3) primers, 534R as its reverse complement
+cutadapt_args: "-g AGAGTTTGATCMTGGCTCAG...CCAGCAGCCGCGGTAAT --revcomp --discard-untrimmed -e 0.15 -m 400 -M 600"
+min_reads: 100
+savont_asv_args: "--min-read-length 400 --max-read-length 600"
+# taxonomy using savont classify, a savont database is downloaded if missing
 classify_savont: True
-classify_savont_db: "silva"
-classify_savont_db_download_dir: "./databases"
+savont_db: "databases/silva-138.2"
 classify_savont_args: ""
-max_threads: 32
-sample_sep: "_"
-# skip the cutadapt step if necessary by setting this to ""
-cutadapt_args: "-g AGRGTTYGATYMTGGCTCAG...GTTTGGCACCTCGATGTCG --revcomp --discard-untrimmed"
-rarefy_abund_table: False
-rarefy_sample_size: 2000
+# taxonomy using usearch -sintax, SINTAX formatted fasta (or .udb)
+classify_sintax: True
+sintax_db: "databases/MiDAS5.3_20240320/FLASVs_w_sintax.fa"
+classify_sintax_args: "-strand both -sintax_cutoff 0.8"
+# taxonomy using savont sintax and savont_db. Genus level only, does not classify to species
+classify_savont_sintax: False
+classify_savont_sintax_args: ""
+# also estimate abundances by mapping reads to the ASVs using usearch -otutab
+abund_usearch: True

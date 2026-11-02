@@ -1,13 +1,12 @@
+# snakemake and plugins needed to run the workflow. The software used by the
+# individual rules is provided through either conda (--sdm conda) or
+# apptainer (--sdm apptainer), see workflow/envs/
 name: snakemake_savont
 channels:
   - conda-forge
   - bioconda
 dependencies:
-  - snakemake=9.16.3
-  - snakemake-executor-plugin-slurm=2.2.0
-  - snakedeploy=0.16.0
-  - snakefmt=0.11.4
-  - gzip=1.13
-  - cutadapt=5.2-0
-  - usearch=11.0.667
-  - savont=0.3.2
+  - snakemake=9.27.1
+  - snakemake-executor-plugin-slurm=2.8.0
+  - snakedeploy=0.18.1
+  - snakefmt=2.1.0

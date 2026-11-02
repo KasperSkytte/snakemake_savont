@@ -10,5 +10,5 @@ tmp/**
 .test/.snakemake/**
 .test/tmp/**
 .test/logs/**
-savont_classify_latest.log
-savont_latest.log
+*.mmi
+nanoporerun/
