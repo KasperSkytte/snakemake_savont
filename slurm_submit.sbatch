@@ -13,7 +13,7 @@ set -euo pipefail
 conda activate snakemake_savont
 
 # Every rule is submitted as a separate job with memory and runtime estimated
-# from the input size (see workflow/profiles/slurm/config.yaml). Failed jobs
+# from the input size (see profiles/slurm/config.yaml). Failed jobs
 # are retried with more resources. Overwrite resources for individual rules
 # by appending fx "--set-resources savont_asv:mem_mb=512000" and set the
 # account with "--default-resources slurm_account=myaccount".
