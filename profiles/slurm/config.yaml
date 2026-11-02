@@ -1,6 +1,7 @@
 # Use with: snakemake --workflow-profile slurm --sdm apptainer (or conda)
 executor: slurm
-jobs: 100
+# max number of jobs submitted at once, matches 96 barcodes on a nanopore flowcell
+jobs: 96
 # memory and runtime requests are scaled up with each attempt
 retries: 2
 rerun-incomplete: true
