@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.0.1](https://github.com/KasperSkytte/snakemake_savont/compare/v2.0.0...v2.0.1) (2026-11-02)
+
+
+### Bug Fixes
+
+* move profiles to repo root so snakedeploy deploys them ([b86c6cc](https://github.com/KasperSkytte/snakemake_savont/commit/b86c6cc5e77d647d29148fb401077de2b103be0b))
+
 ## [2.0.0](https://github.com/KasperSkytte/snakemake_savont/compare/v1.0.1...v2.0.0) (2026-11-02)
 
 
