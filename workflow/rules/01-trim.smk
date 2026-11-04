@@ -12,9 +12,10 @@ rule trim:
         "../envs/cutadapt.yml"
     container:
         cutadapt_container
-    threads: min(config["threads"], 4)
+    threads: 1
     resources:
-        mem_mb=scaled(1024, 0),
+        # measured ~150MB + 0.7MB per MB of reads
+        mem_mb=scaled(192, 1),
         runtime=scaled(30, 0.05),
     params:
         cutadapt_args=config["cutadapt_args"],
@@ -50,7 +51,7 @@ rule read_counts:
         cutadapt_container
     threads: 1
     resources:
-        mem_mb=scaled(512, 0),
+        mem_mb=scaled(150, 0),
         runtime=scaled(10, 0),
     message:
         "Gathering read counts"

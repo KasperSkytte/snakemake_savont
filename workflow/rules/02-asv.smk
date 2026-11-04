@@ -24,10 +24,11 @@ rule savont_asv:
         "../envs/savont.yml"
     container:
         savont_container
-    threads: config["threads"]
+    # savont only uses ~8 cores efficiently
+    threads: min(config["threads"], 8)
     resources:
-        # ~2.5GB for 80MB of gzipped reads, pooled or not
-        mem_mb=scaled(2048, 30, config["max_mem_mb"]),
+        # measured up to 4.7GB for 180MB of gzipped reads, peak use is ~75% of this
+        mem_mb=scaled(896, 40, config["max_mem_mb"]),
         runtime=scaled(30, 0.1),
     params:
         pooled="--pooled-samples" if config["pool_samples"] else "",

@@ -7,7 +7,7 @@ The configuration file `config.yaml` is used to set various options used through
 | `output_dir` | `"output"` | Folder for the results. |
 | `tmp_dir` | `"tmp"` | Folder for temporary files, which are deleted after a succesful run. |
 | `log_dir` | `"logs"` | Folder for logs for each rule. |
-| `threads` | `16` | Max number of threads to use for any individual rule. |
+| `threads` | `32` | Max number of threads to use for any individual rule. Only `usearch -sintax` and `savont sintax` use this many, `savont asv` and `usearch -otutab` use up to 8, and the rest 1. |
 | `max_mem_mb` | `250000` | Max memory (MB) to request for any individual job. Memory is estimated from the input size and increased when a job is retried. |
 | `pool_samples` | `False` | `True`: generate one set of ASVs from the reads of all samples pooled (`savont asv --pooled-samples`), which may recover more low-abundance ASVs, but needs much more memory. `False`: generate ASVs for each sample individually, which are merged by `savont export` afterwards. The results are the same tables for all samples either way. |
 | `cutadapt_args` | `"-g AGAGTTTGATCMTGGCTCAG...CCAGCAGCCGCGGTAAT --revcomp --discard-untrimmed -e 0.15 -m 400 -M 600"` | Options passed on to `cutadapt` directly to trim primers and orient reads. Input, output, and threads are added automatically. The default is for the 27F/534R (V1-V3) primers. Set to `""` to skip trimming. |

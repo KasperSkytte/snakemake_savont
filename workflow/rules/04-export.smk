@@ -37,7 +37,7 @@ rule savont_export:
         savont_container
     threads: 1
     resources:
-        mem_mb=scaled(2048, 2),
+        mem_mb=scaled(180, 1),
         runtime=scaled(30, 0.1),
     params:
         tmp_dir=os.path.join(config["tmp_dir"], "04-export"),

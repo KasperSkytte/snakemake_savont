@@ -4,7 +4,7 @@ input_dir: ".test/nanopore_run_xyz123/fastq_pass"
 output_dir: "output"
 tmp_dir: "tmp"
 log_dir: "logs"
-threads: 16
+threads: 32
 max_mem_mb: 250000
 # True: generate ASVs from all samples pooled (savont asv --pooled-samples)
 # False: generate ASVs for each sample individually and merge them with savont export

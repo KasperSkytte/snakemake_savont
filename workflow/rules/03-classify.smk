@@ -7,9 +7,9 @@ rule savont_db:
         "../envs/savont.yml"
     container:
         savont_container
-    threads: config["threads"]
+    threads: 1
     resources:
-        mem_mb=scaled(8192, 0),
+        mem_mb=scaled(1536, 0),
         runtime=scaled(60, 0),
     params:
         db=config["savont_db"],
@@ -58,10 +58,10 @@ rule savont_classify:
         "../envs/savont.yml"
     container:
         savont_container
-    threads: config["threads"]
+    threads: 1
     resources:
         # mostly the database index, ~2GB for SILVA
-        mem_mb=scaled(4096, 0),
+        mem_mb=scaled(720, 0),
         runtime=scaled(60, 0),
     params:
         db=config["savont_db"],
@@ -100,10 +100,12 @@ rule savont_sintax:
         "../envs/savont.yml"
     container:
         savont_container
-    threads: config["threads"]
+    # measured 31 min at 32 threads (99% CPU efficiency) for 16k ASVs (7.7MB)
+    threads: min(config["threads"], 32)
     resources:
-        mem_mb=scaled(2048, 0),
-        runtime=scaled(60, 0.5),
+        # measured 3.6GB at 32 threads (1.8GB at 1) for 7.7MB of ASVs
+        mem_mb=scaled(3500, 170),
+        runtime=scaled(60, 15),
     params:
         db=config["savont_db"],
         classify_savont_sintax_args=config["classify_savont_sintax_args"],

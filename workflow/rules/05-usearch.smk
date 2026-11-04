@@ -12,9 +12,9 @@ rule sintax_classify:
         "../envs/usearch.yml"
     container:
         usearch_container
-    threads: config["threads"]
+    threads: min(config["threads"], 32)
     resources:
-        mem_mb=scaled(1024, 10),
+        mem_mb=scaled(320, 5),
         runtime=scaled(60, 0),
     params:
         classify_usearch_sintax_args=config["classify_usearch_sintax_args"],
@@ -49,9 +49,9 @@ rule usearch_abund:
         "../envs/usearch.yml"
     container:
         usearch_container
-    threads: min(config["threads"], 16)
+    threads: min(config["threads"], 8)
     resources:
-        mem_mb=scaled(1024, 4),
+        mem_mb=scaled(256, 3.5),
         runtime=scaled(30, 1),
     message:
         "{wildcards.sample}: Estimating abundances of ASVs using usearch -otutab"
@@ -88,7 +88,7 @@ rule usearch_merge_abund:
         usearch_container
     threads: 1
     resources:
-        mem_mb=scaled(2048, 0),
+        mem_mb=scaled(300, 0),
         runtime=scaled(30, 0),
     message:
         "Merging usearch abundance tables"
