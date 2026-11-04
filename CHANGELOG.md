@@ -1,5 +1,19 @@
 # Changelog
 
+## [2.1.0](https://github.com/KasperSkytte/snakemake_savont/compare/v2.0.0...v2.1.0) (2026-11-04)
+
+
+### Features
+
+* rename classify_sintax option to classify_usearch_sintax ([c6c8bd0](https://github.com/KasperSkytte/snakemake_savont/commit/c6c8bd0cfcd6fb137c762da9b4ee0d5f25a3668f))
+* rename taxonomy_sintax.tsv output to taxonomy_usearch_sintax.tsv ([7770d76](https://github.com/KasperSkytte/snakemake_savont/commit/7770d768d15ee09de3515164beed88f740118d5f))
+
+
+### Bug Fixes
+
+* move profiles to repo root so snakedeploy deploys them ([b86c6cc](https://github.com/KasperSkytte/snakemake_savont/commit/b86c6cc5e77d647d29148fb401077de2b103be0b))
+* set threads and memory of each rule from measured usage ([8e1c4db](https://github.com/KasperSkytte/snakemake_savont/commit/8e1c4db0c4a0a96d4c291c85d21bd4b06a64232c))
+
 ## [2.0.0](https://github.com/KasperSkytte/snakemake_savont/compare/v1.0.1...v2.0.0) (2026-11-02)
 
 
