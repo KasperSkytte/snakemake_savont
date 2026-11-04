@@ -1,13 +1,13 @@
 # both use the merged ASVs from savont export, so the ASV IDs match
 # those in the savont tables
-rule sintax_classify:
+rule usearch_sintax:
     input:
         asvs=result("asvs.fasta"),
         db=config["sintax_db"],
     output:
-        result("taxonomy_sintax.tsv"),
+        result("taxonomy_usearch_sintax.tsv"),
     log:
-        os.path.join(config["log_dir"], "05-usearch", "sintax_classify.log"),
+        os.path.join(config["log_dir"], "05-usearch", "usearch_sintax.log"),
     conda:
         "../envs/usearch.yml"
     container:

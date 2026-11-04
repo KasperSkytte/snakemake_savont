@@ -11,13 +11,13 @@ Simple snakemake workflow for processing amplicon data sequenced on ONT or PacBi
 | `01-trim.smk` | `trim` | For each sample, concatenate all fastq files, trim primers and orient reads using `cutadapt`, and count reads before and after. |
 | | `read_counts` | Gather read counts of all samples into `read_counts.tsv`. |
 | `02-asv.smk` | `savont_asv` | Generate ASVs using `savont asv`, either once for all samples pooled (`--pooled-samples`) or once per sample. Samples with fewer than `min_reads` reads are left out. |
-| `03-classify.smk` | `savont_db` | Download the database if needed, and build the database index once. |
-| | `savont_classify` | (optional) Classify ASVs using `savont classify`. |
+| `03-classify.smk` | `savont_db` | Download the savont database if needed, and build the database index once. Only if `savont classify` or `savont sintax` is used. |
+| | `savont_classify` | (optional, off by default) Classify ASVs using `savont classify`. |
 | | `savont_sintax` | (optional, off by default) Classify the merged ASVs using `savont sintax`. Genus level only, it does not classify to species. |
 | `04-export.smk` | `savont_export` | Merge ASVs and abundances of all samples into QIIME2-compatible tables using `savont export`. |
-| `05-usearch.smk` | `sintax_classify` | (optional) Classify the merged ASVs using `usearch -sintax`. |
+| `05-usearch.smk` | `usearch_sintax` | (optional) Classify the merged ASVs using `usearch -sintax`. |
 | | `usearch_abund` | (optional) For each sample, estimate ASV abundances by mapping the trimmed reads to the merged ASVs using `usearch -otutab`. Much faster per sample in parallel than for all samples at once. |
-| | `usearch_merge_abund` | Merge the per-sample abundance tables using `usearch -otutab_merge`. |
+| | `usearch_merge_abund` | (optional) Merge the per-sample abundance tables using `usearch -otutab_merge`. |
 
 Additional options can be passed on directly to the individual commands through the [configuration file](config/README.md).
 
@@ -28,7 +28,7 @@ All results are tables for all samples in `output_dir`, the same files whether t
  - `abund_table_usearch.tsv`: (optional) read counts per ASV per sample estimated by `usearch -otutab`
  - `taxonomy_savont.tsv`: (optional) taxonomy per ASV from `savont classify`
  - `taxon_counts_savont.tsv`: (optional) read counts per taxon (lineage) per sample from `savont classify`
- - `taxonomy_sintax.tsv`: (optional) taxonomy per ASV from `usearch -sintax`
+ - `taxonomy_usearch_sintax.tsv`: (optional) taxonomy per ASV from `usearch -sintax`
  - `taxonomy_savont_sintax.tsv`: (optional) taxonomy per ASV from `savont sintax`
  - `read_counts.tsv`: number of reads per sample before and after trimming
 
@@ -37,7 +37,7 @@ The ASV IDs are the same in all tables.
 ## Usage
 First install snakemake into a conda environment using the [environment.yml](environment.yml) file. Then deploy the workflow using [snakedeploy](https://snakemake.github.io/snakemake-workflow-catalog/docs/workflows/KasperSkytte/snakemake_savont.html), adjust the [config file](config/README.md), then run, fx:
 ```
-release="v1.0.1"
+release="v2.0.0"
 mamba env create --file https://raw.githubusercontent.com/KasperSkytte/snakemake_savont/refs/tags/${release}/environment.yml
 mamba activate snakemake_savont
 snakedeploy deploy-workflow https://github.com/KasperSkytte/snakemake_savont . --tag ${release}
