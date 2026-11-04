@@ -14,7 +14,7 @@ cutadapt_args: "-g AGAGTTTGATCMTGGCTCAG...CCAGCAGCCGCGGTAAT --revcomp --discard-
 min_reads: 100
 savont_asv_args: "--min-read-length 400 --max-read-length 600"
 # taxonomy using savont classify, a savont database is downloaded if missing
-classify_savont: True
+classify_savont: False
 savont_db: "databases/silva-138.2"
 classify_savont_args: ""
 # taxonomy using usearch -sintax, SINTAX formatted fasta (or .udb)

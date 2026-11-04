@@ -13,7 +13,7 @@ The configuration file `config.yaml` is used to set various options used through
 | `cutadapt_args` | `"-g AGAGTTTGATCMTGGCTCAG...CCAGCAGCCGCGGTAAT --revcomp --discard-untrimmed -e 0.15 -m 400 -M 600"` | Options passed on to `cutadapt` directly to trim primers and orient reads. Input, output, and threads are added automatically. The default is for the 27F/534R (V1-V3) primers. Set to `""` to skip trimming. |
 | `min_reads` | `100` | Samples with fewer reads after trimming are left out of ASV generation (savont fails on samples with almost no reads). |
 | `savont_asv_args` | `"--min-read-length 400 --max-read-length 600"` | Options passed on to the `savont asv` command directly, except input, output, and threads. Remember to set read lengths if not full-length 16S. |
-| `classify_savont` | `True` | Whether to classify the ASVs using `savont classify` (alignment based, best at species level). |
+| `classify_savont` | `False` | Whether to classify the ASVs using `savont classify` (alignment based, best at species level). |
 | `savont_db` | `"databases/silva-138.2"` | Path to a savont database folder for `savont classify` and `savont sintax`. If it doesn't exist and is named one of the savont databases (`emu-1`, `silva-138.2`, `greengenes2-2024.09`, `unite-10.0`) it is downloaded. Use `scripts/qiime2savont.py` to convert QIIME formatted databases like MiDAS. |
 | `classify_savont_args` | `""` | Options passed on to the `savont classify` command directly, except input, output, database, and threads. |
 | `classify_usearch_sintax` | `True` | Whether to classify the ASVs using `usearch -sintax`. |
