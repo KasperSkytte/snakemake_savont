@@ -18,9 +18,9 @@ classify_savont: True
 savont_db: "databases/silva-138.2"
 classify_savont_args: ""
 # taxonomy using usearch -sintax, SINTAX formatted fasta (or .udb)
-classify_sintax: True
+classify_usearch_sintax: True
 sintax_db: "databases/MiDAS5.3_20240320/FLASVs_w_sintax.fa"
-classify_sintax_args: "-strand both -sintax_cutoff 0.8"
+classify_usearch_sintax_args: "-strand both -sintax_cutoff 0.8"
 # taxonomy using savont sintax and savont_db. Genus level only, does not classify to species
 classify_savont_sintax: False
 classify_savont_sintax_args: ""

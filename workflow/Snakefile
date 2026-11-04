@@ -24,7 +24,7 @@ rule all:
         result("asvs.fasta"),
         result("abund_table_savont.tsv"),
         result("taxonomy_savont.tsv") if config["classify_savont"] else [],
-        result("taxonomy_sintax.tsv") if config["classify_sintax"] else [],
+        result("taxonomy_sintax.tsv") if config["classify_usearch_sintax"] else [],
         (
             result("taxonomy_savont_sintax.tsv")
             if config["classify_savont_sintax"]

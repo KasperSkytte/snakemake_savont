@@ -13,9 +13,9 @@ savont_asv_args: "--min-read-length 400 --max-read-length 600"
 classify_savont: True
 savont_db: "databases/silva-138.2"
 classify_savont_args: ""
-classify_sintax: True
+classify_usearch_sintax: True
 sintax_db: "databases/db_sintax.fa"
-classify_sintax_args: "-strand both -sintax_cutoff 0.8"
+classify_usearch_sintax_args: "-strand both -sintax_cutoff 0.8"
 classify_savont_sintax: True
 classify_savont_sintax_args: ""
 abund_usearch: True

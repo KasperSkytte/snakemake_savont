@@ -16,9 +16,9 @@ The configuration file `config.yaml` is used to set various options used through
 | `classify_savont` | `True` | Whether to classify the ASVs using `savont classify` (alignment based, best at species level). |
 | `savont_db` | `"databases/silva-138.2"` | Path to a savont database folder for `savont classify` and `savont sintax`. If it doesn't exist and is named one of the savont databases (`emu-1`, `silva-138.2`, `greengenes2-2024.09`, `unite-10.0`) it is downloaded. Use `scripts/qiime2savont.py` to convert QIIME formatted databases like MiDAS. |
 | `classify_savont_args` | `""` | Options passed on to the `savont classify` command directly, except input, output, database, and threads. |
-| `classify_sintax` | `True` | Whether to classify the ASVs using `usearch -sintax`. |
+| `classify_usearch_sintax` | `True` | Whether to classify the ASVs using `usearch -sintax`. |
 | `sintax_db` | `"databases/MiDAS5.3_20240320/FLASVs_w_sintax.fa"` | Path to the taxonomic reference database in SINTAX format (fasta or `.udb`) used by `usearch -sintax`. |
-| `classify_sintax_args` | `"-strand both -sintax_cutoff 0.8"` | Options passed on to the `usearch -sintax` command directly, except input, output, database, and threads. |
+| `classify_usearch_sintax_args` | `"-strand both -sintax_cutoff 0.8"` | Options passed on to the `usearch -sintax` command directly, except input, output, database, and threads. |
 | `classify_savont_sintax` | `False` | Whether to classify the ASVs using `savont sintax` with `savont_db`. Genus level only, it does not classify to species. |
 | `classify_savont_sintax_args` | `""` | Options passed on to the `savont sintax` command directly, except input, output, database, and threads. |
 | `abund_usearch` | `True` | Whether to also estimate ASV abundances by mapping the trimmed reads of each sample to the ASVs using `usearch -otutab`. The savont abundance table is always made, as `savont export` is needed to merge the ASVs anyway. |

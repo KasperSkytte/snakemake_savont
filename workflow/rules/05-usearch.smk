@@ -17,7 +17,7 @@ rule sintax_classify:
         mem_mb=scaled(1024, 10),
         runtime=scaled(60, 0),
     params:
-        classify_sintax_args=config["classify_sintax_args"],
+        classify_usearch_sintax_args=config["classify_usearch_sintax_args"],
     message:
         "Classifying ASVs using usearch -sintax"
     shell:
@@ -29,7 +29,7 @@ rule sintax_classify:
             -db "{input.db}" \
             -tabbedout "{output}" \
             -threads {threads} \
-            {params.classify_sintax_args}
+            {params.classify_usearch_sintax_args}
         sort -o "{output}" "{output}"
         """
 
