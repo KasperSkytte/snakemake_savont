@@ -10,9 +10,9 @@ max_mem_mb: 250000
 # False: generate ASVs for each sample individually and merge them with savont export
 pool_samples: False
 # 27F/534R (V1-V3) primers, 534R as its reverse complement
-cutadapt_args: "-g AGAGTTTGATCMTGGCTCAG...CCAGCAGCCGCGGTAAT --revcomp --discard-untrimmed -e 0.15 -m 400 -M 600"
+cutadapt_args: "-g AGAGTTTGATCMTGGCTCAG...CCAGCAGCCGCGGTAAT --revcomp --discard-untrimmed -e 0.15 -m 250 -M 600"
 min_reads: 100
-savont_asv_args: "--min-read-length 400 --max-read-length 600"
+savont_asv_args: "--min-read-length 250 --max-read-length 600"
 # taxonomy using savont classify, a savont database is downloaded if missing
 classify_savont: False
 savont_db: "databases/silva-138.2"
