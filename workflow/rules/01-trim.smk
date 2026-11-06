@@ -19,6 +19,7 @@ rule trim:
         runtime=scaled(30, 0.05),
     params:
         cutadapt_args=config["cutadapt_args"],
+        cat_fastq=workflow.source_path("../scripts/cat_fastq.py"),
     message:
         "{wildcards.sample}: Trimming primers and orienting reads using cutadapt"
     shell:
@@ -26,7 +27,9 @@ rule trim:
         exec &>"{log.log}"
         set -euxo pipefail
 
-        zcat -f {input} \
+        # gzipped or not, files that are cut off are used up to the last complete
+        # read and noted in this log
+        python3 "{params.cat_fastq}" {input} \
             | cutadapt {params.cutadapt_args} -j {threads} -Z --json "{log.json}" -o "{output.reads}" -
 
         # sample, number of reads before and after trimming
