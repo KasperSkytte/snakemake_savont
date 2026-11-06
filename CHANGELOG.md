@@ -1,5 +1,13 @@
 # Changelog
 
+## [2.1.1](https://github.com/KasperSkytte/snakemake_savont/compare/v2.1.0...v2.1.1) (2026-11-06)
+
+
+### Bug Fixes
+
+* explain why savont export fails when no sample has ASVs ([314582b](https://github.com/KasperSkytte/snakemake_savont/commit/314582bb9c8ccb5b5e36e04bf066a6efe43dd0ce))
+* handle empty, cut off and uncompressed fastq files in trim ([c509139](https://github.com/KasperSkytte/snakemake_savont/commit/c509139285e1520ac64ee680d888ad8c684440bb))
+
 ## [2.1.0](https://github.com/KasperSkytte/snakemake_savont/compare/v2.0.0...v2.1.0) (2026-11-04)
 
 
